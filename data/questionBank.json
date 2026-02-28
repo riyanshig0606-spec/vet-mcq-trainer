@@ -700,7 +700,7 @@
     },
     {
       "id": "equine",
-      "title": "Equine"
+      "title": "Equine",
       "sets": [
   {
     "id": "equine-set-rcvs-50",
@@ -827,4 +827,5 @@
     }
   ]
 }
+
 
