@@ -698,6 +698,693 @@
         }
       ]
     },
+{
+  "id": "farm-set-rcvs-50-2",
+  "title": "RCVS Farm Animal Mock Exam – 50 MCQs (Set 2)",
+  "subcategories": [
+    {
+      "id": "farm2-notifiable-biosecurity",
+      "title": "Notifiable Disease, Biosecurity & Field Decisions",
+      "questions": [
+        {
+          "id": "FA2-ND-001",
+          "stem": "A cow is found dead, reportedly normal 2 hours earlier. There is a small amount of dark blood from the nostrils and it has not clotted. Best next step?",
+          "options": [
+            { "key": "A", "text": "Open the carcass to look for internal haemorrhage" },
+            { "key": "B", "text": "Move the carcass away from cattle housing immediately" },
+            { "key": "C", "text": "Do NOT post-mortem; take a blood smear and contact the appropriate authority" },
+            { "key": "D", "text": "Treat in-contact cattle with NSAIDs and isolate the dead cow" }
+          ],
+          "correctKey": "C",
+          "explanationShort": "Sudden death + unclotted blood is an anthrax red flag: don’t open; get smear + report.",
+          "explanationLong": "Suspected anthrax cases should not be opened. Diagnosis is supported by a blood smear showing capsulated rods; movement restrictions/reporting apply."
+        },
+        {
+          "id": "FA2-ND-002",
+          "stem": "In suspected anthrax, what sample is most appropriate for rapid confirmation?",
+          "options": [
+            { "key": "A", "text": "Rumen fluid culture" },
+            { "key": "B", "text": "Blood smear from a superficial vessel" },
+            { "key": "C", "text": "Milk sample" },
+            { "key": "D", "text": "Faecal egg count" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Blood smear for capsulated rods.",
+          "explanationLong": "The classic quick check is a blood smear from superficial vessels; post-mortem should be avoided until anthrax is excluded."
+        },
+        {
+          "id": "FA2-ND-003",
+          "stem": "Which statement best describes anthrax spread risk in the UK context?",
+          "options": [
+            { "key": "A", "text": "Spreads rapidly animal-to-animal like FMD" },
+            { "key": "B", "text": "Primarily spread by respiratory droplets between cattle" },
+            { "key": "C", "text": "Usually acquired from contaminated soil/feed/water; rare but zoonotic" },
+            { "key": "D", "text": "Only spread by midges" }
+          ],
+          "correctKey": "C",
+          "explanationShort": "It’s usually environmental exposure; rare but zoonotic.",
+          "explanationLong": "Anthrax is classically acquired by ingestion of spores from contaminated sources; it’s important but not typically a rapidly spreading contact epidemic."
+        },
+        {
+          "id": "FA2-ND-004",
+          "stem": "Which disease is a UK notifiable zoonosis caused by Mycobacterium bovis?",
+          "options": [
+            { "key": "A", "text": "Bovine TB" },
+            { "key": "B", "text": "BVD" },
+            { "key": "C", "text": "IBR" },
+            { "key": "D", "text": "Neospora" }
+          ],
+          "correctKey": "A",
+          "explanationShort": "bTB is notifiable and zoonotic.",
+          "explanationLong": "bTB is a notifiable disease; it can spread between cattle and multiple other species and is a zoonosis."
+        },
+        {
+          "id": "FA2-ND-005",
+          "stem": "SICCT (skin test) typically detects bTB infection from approximately:",
+          "options": [
+            { "key": "A", "text": "1–4 days after infection" },
+            { "key": "B", "text": "1–2 weeks after infection" },
+            { "key": "C", "text": "3–6 weeks after infection" },
+            { "key": "D", "text": "6–12 months after infection only" }
+          ],
+          "correctKey": "C",
+          "explanationShort": "SICCT: roughly 3–6 weeks post infection.",
+          "explanationLong": "The commonly tested figure is that SICCT can identify infection from around 3–6 weeks after infection."
+        },
+        {
+          "id": "FA2-ND-006",
+          "stem": "Gamma interferon testing for bTB compared to SICCT is best described as:",
+          "options": [
+            { "key": "A", "text": "Less sensitive and fewer false positives" },
+            { "key": "B", "text": "More sensitive but more false positives" },
+            { "key": "C", "text": "Only useful after clinical signs develop" },
+            { "key": "D", "text": "Not used alongside SICCT" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "More sensitive, but more false positives.",
+          "explanationLong": "Gamma IFN is used as a supplementary test; it can detect more infected animals but typically at the cost of more false positives."
+        },
+        {
+          "id": "FA2-ND-007",
+          "stem": "In bTB epidemiology, which is usually the highest-risk transmission route on farms?",
+          "options": [
+            { "key": "A", "text": "Badger-to-cattle transmission dominates most breakdowns" },
+            { "key": "B", "text": "Cattle-to-cattle direct contact is typically the main risk" },
+            { "key": "C", "text": "Transmission is mainly via ticks" },
+            { "key": "D", "text": "Only via milk ingestion by calves" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Usually cattle-to-cattle contact is the biggest risk.",
+          "explanationLong": "While wildlife can contribute, cattle-to-cattle spread is typically the most important transmission route to control within herds."
+        },
+        {
+          "id": "FA2-ND-008",
+          "stem": "A key practical requirement to deliver a safe, accurate SICCT test is:",
+          "options": [
+            { "key": "A", "text": "A single operator can do it without restraint" },
+            { "key": "B", "text": "Good handling facilities" },
+            { "key": "C", "text": "Testing only at pasture with minimal equipment" },
+            { "key": "D", "text": "Sedation of every animal" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Handling facilities matter for safety and accuracy.",
+          "explanationLong": "Safe restraint and consistent injection/reading require good facilities; this is a commonly examined real-world point."
+        },
+        {
+          "id": "FA2-ND-009",
+          "stem": "A common reason bTB is detected late clinically is that:",
+          "options": [
+            { "key": "A", "text": "Disease develops extremely rapidly over hours" },
+            { "key": "B", "text": "Disease can take months–years before clinical signs" },
+            { "key": "C", "text": "It always causes severe diarrhoea early" },
+            { "key": "D", "text": "It only affects calves" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "It’s slow and often subclinical for a long time.",
+          "explanationLong": "bTB has slow progression; most cases are detected on routine testing rather than obvious early clinical disease."
+        },
+        {
+          "id": "FA2-ND-010",
+          "stem": "A herd has repeated sudden deaths with minimal premonitory signs. Which action is most inappropriate?",
+          "options": [
+            { "key": "A", "text": "Treat all remaining cattle with broad-spectrum antibiotics immediately" },
+            { "key": "B", "text": "Consider notifiable causes in differentials" },
+            { "key": "C", "text": "Risk-assess zoonotic exposure" },
+            { "key": "D", "text": "Avoid unnecessary carcass opening until key exclusions done" }
+          ],
+          "correctKey": "A",
+          "explanationShort": "Blanket antibiotics are not a first response to sudden death clusters.",
+          "explanationLong": "Sudden death triggers notifiable/zoonotic considerations and sampling/reporting pathways; empirical mass antibiotics can delay correct investigation and doesn’t address biosecurity."
+        }
+      ]
+    },
+    {
+      "id": "farm2-metabolic-da",
+      "title": "Metabolic & GI (DA/Volvulus, Ketosis, Acidosis)",
+      "questions": [
+        {
+          "id": "FA2-MG-011",
+          "stem": "Most important diagnostic clinical finding for displaced abomasum is:",
+          "options": [
+            { "key": "A", "text": "Bilateral epistaxis" },
+            { "key": "B", "text": "A ‘ping’ on simultaneous percussion and auscultation" },
+            { "key": "C", "text": "Profuse watery diarrhoea" },
+            { "key": "D", "text": "Marked pyrexia" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "DA classically gives a ping.",
+          "explanationLong": "A ping over characteristic rib spaces is the key field clue for LDA/RDA; volvulus often deteriorates rapidly."
+        },
+        {
+          "id": "FA2-MG-012",
+          "stem": "LDA is most common in dairy cows during:",
+          "options": [
+            { "key": "A", "text": "Mid-lactation" },
+            { "key": "B", "text": "First 4 weeks after calving" },
+            { "key": "C", "text": "Dry period only" },
+            { "key": "D", "text": "Late gestation only" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Peak risk is early post-calving.",
+          "explanationLong": "LDA commonly occurs in early lactation; signs can resemble ketosis (drop in yield, appetite)."
+        },
+        {
+          "id": "FA2-MG-013",
+          "stem": "Which acid–base pattern is most consistent with LDA/RDA?",
+          "options": [
+            { "key": "A", "text": "Metabolic acidosis with hyperchloraemia" },
+            { "key": "B", "text": "Metabolic alkalosis with hypochloraemia and hypokalaemia" },
+            { "key": "C", "text": "Respiratory alkalosis" },
+            { "key": "D", "text": "High anion gap acidosis always" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Sequestration of HCl → alkalosis, low Cl and K.",
+          "explanationLong": "Abomasal outflow issues trap chloride; potassium falls as well. This is a classic exam trap versus primary rumen acidosis."
+        },
+        {
+          "id": "FA2-MG-014",
+          "stem": "Compared with LDA, prompt surgery is always required for RDA mainly because:",
+          "options": [
+            { "key": "A", "text": "RDA never resolves medically" },
+            { "key": "B", "text": "RDA has a high risk of progressing to volvulus" },
+            { "key": "C", "text": "RDA always causes severe pyrexia" },
+            { "key": "D", "text": "RDA is primarily caused by parasites" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "RDA can rapidly become volvulus.",
+          "explanationLong": "RDA is a surgical problem because volvulus risk is high and outcome worsens with delay."
+        },
+        {
+          "id": "FA2-MG-015",
+          "stem": "Abomasal volvulus is most associated with:",
+          "options": [
+            { "key": "A", "text": "Slowly progressive mild signs only" },
+            { "key": "B", "text": "Rapid deterioration due to vascular compromise and dehydration" },
+            { "key": "C", "text": "Normal heart rate and appetite" },
+            { "key": "D", "text": "Primary respiratory signs only" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Volvulus = shocky, rapid decline.",
+          "explanationLong": "Vascular compromise drives dehydration, electrolyte changes and severe systemic deterioration."
+        },
+        {
+          "id": "FA2-MG-016",
+          "stem": "Kexxtone reduces ketosis risk primarily by:",
+          "options": [
+            { "key": "A", "text": "Increasing acetate production" },
+            { "key": "B", "text": "Increasing propionate and hepatic gluconeogenesis" },
+            { "key": "C", "text": "Directly blocking lipolysis via insulin" },
+            { "key": "D", "text": "Killing rumen protozoa with antibiotics" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Monensin shifts rumen VFAs → more propionate → more glucose.",
+          "explanationLong": "Monensin increases propionic acid, supporting hepatic glucose production and lowering ketosis risk."
+        },
+        {
+          "id": "FA2-MG-017",
+          "stem": "Which statement about Kexxtone is most accurate?",
+          "options": [
+            { "key": "A", "text": "Eliminates ketosis risk entirely" },
+            { "key": "B", "text": "Reduces ketosis risk but does not eliminate it" },
+            { "key": "C", "text": "Only effective after ketosis is established" },
+            { "key": "D", "text": "Only licensed for calves" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "It reduces risk, not zero.",
+          "explanationLong": "Exam wording often targets “reduces but does not eliminate risk” and correct timing/use."
+        },
+        {
+          "id": "FA2-MG-018",
+          "stem": "Ruminal acidosis prevention focuses most on:",
+          "options": [
+            { "key": "A", "text": "Abrupt diet change to ‘reset’ rumen flora" },
+            { "key": "B", "text": "Slow feed transitions and maximising forage/fibre" },
+            { "key": "C", "text": "Routine antibiotics in all cattle" },
+            { "key": "D", "text": "Avoiding all concentrates permanently" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Slow change + fibre is key prevention.",
+          "explanationLong": "Preventing sudden carbohydrate overload is central; management is the main control point."
+        },
+        {
+          "id": "FA2-MG-019",
+          "stem": "Thrombosis of the vena cava is commonly a downstream complication of:",
+          "options": [
+            { "key": "A", "text": "Mycoplasma mastitis" },
+            { "key": "B", "text": "Liver abscessation (often linked to rumen acidosis)" },
+            { "key": "C", "text": "Babesiosis" },
+            { "key": "D", "text": "Milk fever" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Usually starts with liver abscesses (often after acidosis).",
+          "explanationLong": "The infection can spread from liver abscesses to the vena cava → thrombus → emboli to lungs."
+        },
+        {
+          "id": "FA2-MG-020",
+          "stem": "Which sign is most characteristic of vena cava thrombosis in cattle?",
+          "options": [
+            { "key": "A", "text": "Chronic head pressing" },
+            { "key": "B", "text": "Frothy blood around nose/mouth after coughing blood" },
+            { "key": "C", "text": "Severe photosensitisation only" },
+            { "key": "D", "text": "High fever and nasal ulcers" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Haemoptysis with frothy blood is classic.",
+          "explanationLong": "Pulmonary emboli/abscessation can cause haemoptysis; many collapse and die soon after onset of bleeding."
+        }
+      ]
+    },
+    {
+      "id": "farm2-parasitology",
+      "title": "Parasitology & Anthelmintic Efficacy (FECRT, Teladorsagia)",
+      "questions": [
+        {
+          "id": "FA2-PA-021",
+          "stem": "FECRT is primarily used to assess:",
+          "options": [
+            { "key": "A", "text": "Whether eggs are present at all" },
+            { "key": "B", "text": "Anthelmintic efficacy by comparing pre- and post-treatment egg counts" },
+            { "key": "C", "text": "Liver fluke burden via blood enzymes" },
+            { "key": "D", "text": "Coccidial oocyst sporulation time" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "FECRT checks whether a dewormer worked.",
+          "explanationLong": "It compares faecal egg counts before and after treatment to estimate efficacy and detect resistance."
+        },
+        {
+          "id": "FA2-PA-022",
+          "stem": "An individual FECRT is most reliable when pre-treatment egg counts are:",
+          "options": [
+            { "key": "A", "text": "<50 epg" },
+            { "key": "B", "text": "50–100 epg" },
+            { "key": "C", "text": ">300 epg" },
+            { "key": "D", "text": "Only when egg counts are zero" }
+          ],
+          "correctKey": "C",
+          "explanationShort": "Best reliability when counts are >300 epg.",
+          "explanationLong": "Low egg counts make percentage reduction noisy and unreliable; higher baseline counts improve validity."
+        },
+        {
+          "id": "FA2-PA-023",
+          "stem": "To improve FECRT reliability at group level, a common recommendation is to test at least:",
+          "options": [
+            { "key": "A", "text": "3 animals" },
+            { "key": "B", "text": "5 animals" },
+            { "key": "C", "text": "10 animals" },
+            { "key": "D", "text": "30 animals" }
+          ],
+          "correctKey": "C",
+          "explanationShort": "About 10 animals is a common minimum.",
+          "explanationLong": "Using too few animals increases sampling error; ≥10 is a frequently cited threshold for more reliable group FECRT."
+        },
+        {
+          "id": "FA2-PA-024",
+          "stem": "Teladorsagia circumcincta primarily causes pathology by:",
+          "options": [
+            { "key": "A", "text": "Adult blood feeding causing acute anaemia" },
+            { "key": "B", "text": "Larval damage in abomasal glands → reduced acid production and raised abomasal pH" },
+            { "key": "C", "text": "Migrating through the liver causing fibrosis" },
+            { "key": "D", "text": "Blocking bile ducts" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Larvae damage abomasal glands and reduce acid.",
+          "explanationLong": "Larval stages in gastric glands disrupt parietal cells → higher pH → impaired pepsin activation and digestion."
+        },
+        {
+          "id": "FA2-PA-025",
+          "stem": "A consequence of increased abomasal pH in Teladorsagia infection is:",
+          "options": [
+            { "key": "A", "text": "Pepsinogen converts more rapidly to pepsin" },
+            { "key": "B", "text": "Failure of pepsinogen conversion → elevated plasma pepsinogen" },
+            { "key": "C", "text": "Immediate rumen alkalosis" },
+            { "key": "D", "text": "Increased bile acid secretion" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "High pH → pepsinogen not activated → pepsinogen rises.",
+          "explanationLong": "This is a classic mechanism question: less acid means less conversion to active pepsin and measurable pepsinogen changes."
+        },
+        {
+          "id": "FA2-PA-026",
+          "stem": "In sheep parasitism, subclinical/moderate infection often causes:",
+          "options": [
+            { "key": "A", "text": "Sudden death only" },
+            { "key": "B", "text": "Diarrhoea and poor weight gain/reduced wool production" },
+            { "key": "C", "text": "Photosensitisation as the main sign" },
+            { "key": "D", "text": "Hindlimb paralysis" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Performance loss is common even without dramatic illness.",
+          "explanationLong": "Many GI nematode infections are production-limiting: reduced growth, diarrhoea, poorer fleece output."
+        },
+        {
+          "id": "FA2-PA-027",
+          "stem": "Which is the best interpretation of FECRT purpose in resistance control?",
+          "options": [
+            { "key": "A", "text": "It diagnoses the parasite species definitively" },
+            { "key": "B", "text": "It estimates how effective a chosen anthelmintic was on that farm" },
+            { "key": "C", "text": "It replaces the need for any other monitoring" },
+            { "key": "D", "text": "It is only useful for flukicides" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "It tells you if the drug worked (or resistance is likely).",
+          "explanationLong": "FECRT is a field tool to detect reduced efficacy and guide sustainable worming strategies."
+        },
+        {
+          "id": "FA2-PA-028",
+          "stem": "Which management change most reduces selection pressure for resistance (general principle)?",
+          "options": [
+            { "key": "A", "text": "Treating the entire group at fixed monthly intervals year-round" },
+            { "key": "B", "text": "Targeted treatment based on monitoring and risk" },
+            { "key": "C", "text": "Always underdosing to ‘reduce side effects’" },
+            { "key": "D", "text": "Using the same drug class forever without checking efficacy" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Targeted treatments reduce unnecessary dosing and resistance pressure.",
+          "explanationLong": "Monitoring-based strategies reduce blanket dosing and help preserve refugia, slowing resistance development."
+        },
+        {
+          "id": "FA2-PA-029",
+          "stem": "A key limitation of egg counts (general) is that they:",
+          "options": [
+            { "key": "A", "text": "Directly measure tissue larval burden precisely" },
+            { "key": "B", "text": "Can be influenced by immunity and season; don’t always reflect clinical disease" },
+            { "key": "C", "text": "Are always higher in adults than lambs" },
+            { "key": "D", "text": "Never correlate with pasture contamination" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Egg output doesn’t perfectly match disease burden.",
+          "explanationLong": "Egg counts reflect shedding and adult stages; immunity, season, and parasite biology can uncouple egg output from pathology."
+        },
+        {
+          "id": "FA2-PA-030",
+          "stem": "Which statement is most consistent with Teladorsagia biology in the notes?",
+          "options": [
+            { "key": "A", "text": "Adults are the main blood-feeding pathogenic stage" },
+            { "key": "B", "text": "Larvae in abomasal glands are key for pathology" },
+            { "key": "C", "text": "It is primarily a lungworm" },
+            { "key": "D", "text": "It causes disease only when egg counts are zero" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Larval stages drive much of the damage.",
+          "explanationLong": "The notes emphasise larval development in abomasal glands leading to gland damage and pH changes."
+        }
+      ]
+    },
+    {
+      "id": "farm2-acidbase",
+      "title": "Acid–Base & Anion Gap (Exam Calculations)",
+      "questions": [
+        {
+          "id": "FA2-AB-031",
+          "stem": "The anion gap is used to:",
+          "options": [
+            { "key": "A", "text": "Estimate dehydration from PCV alone" },
+            { "key": "B", "text": "Differentiate causes of metabolic acidosis by identifying unmeasured anions" },
+            { "key": "C", "text": "Diagnose respiratory alkalosis directly" },
+            { "key": "D", "text": "Calculate serum albumin precisely" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "It helps classify metabolic acidosis (unmeasured acids).",
+          "explanationLong": "High anion gap suggests added acids (e.g., lactate/ketones); normal anion gap suggests bicarbonate loss/hyperchloraemia."
+        },
+        {
+          "id": "FA2-AB-032",
+          "stem": "Most commonly taught anion gap formula (excluding minor variants) is:",
+          "options": [
+            { "key": "A", "text": "(Na + K) − (Cl + HCO3)" },
+            { "key": "B", "text": "(Cl + HCO3) − (Na + K)" },
+            { "key": "C", "text": "Na − (Cl + glucose)" },
+            { "key": "D", "text": "K − (Na + Cl)" }
+          ],
+          "correctKey": "A",
+          "explanationShort": "AG = (Na + K) − (Cl + HCO3).",
+          "explanationLong": "This is the standard exam calculation structure; some variants omit K but the logic is the same."
+        },
+        {
+          "id": "FA2-AB-033",
+          "stem": "A raised anion gap metabolic acidosis most strongly indicates:",
+          "options": [
+            { "key": "A", "text": "Loss of bicarbonate in diarrhoea only" },
+            { "key": "B", "text": "Addition/accumulation of unmeasured acids (e.g., lactate, ketones)" },
+            { "key": "C", "text": "Primary respiratory disease" },
+            { "key": "D", "text": "Pure chloride gain as the only mechanism" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "High AG = added acids.",
+          "explanationLong": "Unmeasured anions rise when acids accumulate; this is a core conceptual exam distinction."
+        },
+        {
+          "id": "FA2-AB-034",
+          "stem": "A normal anion gap metabolic acidosis is most consistent with:",
+          "options": [
+            { "key": "A", "text": "Lactic acidosis from shock" },
+            { "key": "B", "text": "Ketoacidosis" },
+            { "key": "C", "text": "Bicarbonate loss with compensatory hyperchloraemia" },
+            { "key": "D", "text": "Primary hyperventilation" }
+          ],
+          "correctKey": "C",
+          "explanationShort": "Normal AG acidosis often means bicarb loss replaced by chloride.",
+          "explanationLong": "Classic mechanism: GI bicarbonate loss (diarrhoea) or renal tubular acidosis → chloride rises to maintain electroneutrality."
+        },
+        {
+          "id": "FA2-AB-035",
+          "stem": "Which scenario most likely produces high anion gap acidosis?",
+          "options": [
+            { "key": "A", "text": "Chronic LDA with hypochloraemic alkalosis" },
+            { "key": "B", "text": "Severe hypovolaemic shock with rising lactate" },
+            { "key": "C", "text": "Simple salivary loss from rumination changes only" },
+            { "key": "D", "text": "Primary respiratory alkalosis from panting" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Shock → lactate → high AG acidosis.",
+          "explanationLong": "Anaerobic metabolism increases lactate (unmeasured anion), raising anion gap."
+        },
+        {
+          "id": "FA2-AB-036",
+          "stem": "In abomasal displacement/volvulus, the typical acid-base trend is:",
+          "options": [
+            { "key": "A", "text": "High anion gap metabolic acidosis is most typical" },
+            { "key": "B", "text": "Metabolic alkalosis due to sequestration of HCl" },
+            { "key": "C", "text": "Respiratory acidosis due to hypoventilation is primary" },
+            { "key": "D", "text": "No electrolyte changes occur" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Sequestered HCl → alkalosis.",
+          "explanationLong": "Classic exam association: hypochloraemic, hypokalaemic metabolic alkalosis in DA."
+        },
+        {
+          "id": "FA2-AB-037",
+          "stem": "A key electrolyte abnormality in DA cases is typically:",
+          "options": [
+            { "key": "A", "text": "Hyperchloraemia" },
+            { "key": "B", "text": "Hypochloraemia" },
+            { "key": "C", "text": "Hyperkalaemia with bradycardia" },
+            { "key": "D", "text": "Hypermagnesaemia" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Chloride is often low.",
+          "explanationLong": "Chloride is sequestered in abomasal fluid; potassium also falls."
+        },
+        {
+          "id": "FA2-AB-038",
+          "stem": "Which pattern fits ruminal lactic acidosis more than DA?",
+          "options": [
+            { "key": "A", "text": "Metabolic alkalosis with low chloride" },
+            { "key": "B", "text": "Metabolic acidosis with dehydration/endotoxaemia risk" },
+            { "key": "C", "text": "Pure respiratory alkalosis" },
+            { "key": "D", "text": "No change in rumen pH" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Lactic acidosis = metabolic acidosis picture.",
+          "explanationLong": "Carbohydrate overload causes rumen pH crash and systemic metabolic acidosis; contrasts with abomasal alkalosis."
+        },
+        {
+          "id": "FA2-AB-039",
+          "stem": "Which statement best fits “anion gap” conceptually?",
+          "options": [
+            { "key": "A", "text": "It measures only sodium concentration" },
+            { "key": "B", "text": "It estimates ‘missing’ negative charges in plasma not routinely measured" },
+            { "key": "C", "text": "It directly equals lactate concentration" },
+            { "key": "D", "text": "It is only used in respiratory disease" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "It estimates unmeasured anions.",
+          "explanationLong": "Albumin, lactate, ketones, phosphates, sulphates contribute; shifts help classify metabolic acidosis."
+        },
+        {
+          "id": "FA2-AB-040",
+          "stem": "A cow with black tarry faeces + haemoptysis suggests vena cava thrombosis. The underlying driver to prevent is usually:",
+          "options": [
+            { "key": "A", "text": "Photosensitisation" },
+            { "key": "B", "text": "Rumen acidosis leading to liver abscesses" },
+            { "key": "C", "text": "Hypocalcaemia" },
+            { "key": "D", "text": "Endometritis" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Prevent acidosis → fewer liver abscesses.",
+          "explanationLong": "The condition is often secondary to liver abscessation; prevention focuses on reducing acidosis risk and managing abscess sources."
+        }
+      ]
+    },
+    {
+      "id": "farm2-btb-econ",
+      "title": "bTB Practicalities & Herd-Level Reasoning",
+      "questions": [
+        {
+          "id": "FA2-TB-041",
+          "stem": "bTB is shed in multiple secretions. Which combination is correct?",
+          "options": [
+            { "key": "A", "text": "Only bile and sweat" },
+            { "key": "B", "text": "Mucus/saliva, milk and faeces can all contain bacteria" },
+            { "key": "C", "text": "Only semen" },
+            { "key": "D", "text": "Only urine" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Multiple routes: mucus/saliva, milk, faeces.",
+          "explanationLong": "This is why indirect transmission via shared equipment/contractors can occur, though direct contact is commonly most important."
+        },
+        {
+          "id": "FA2-TB-042",
+          "stem": "Which statement about bTB detection is most accurate?",
+          "options": [
+            { "key": "A", "text": "Most infected cattle show obvious signs early" },
+            { "key": "B", "text": "Most infected cattle are identified by routine testing before obvious signs" },
+            { "key": "C", "text": "bTB always causes high fever and diarrhoea" },
+            { "key": "D", "text": "bTB only affects beef herds" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Most are found on surveillance testing.",
+          "explanationLong": "Clinical disease is often late; routine herd testing finds many cases earlier."
+        },
+        {
+          "id": "FA2-TB-043",
+          "stem": "A herd uses “severe interpretation” for SICCT when:",
+          "options": [
+            { "key": "A", "text": "The herd has no TB history and is low risk" },
+            { "key": "B", "text": "The herd history/risk means you want to maximise detection" },
+            { "key": "C", "text": "You want to minimise detection" },
+            { "key": "D", "text": "Only calves are being tested" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Severe = more sensitive approach in higher-risk contexts.",
+          "explanationLong": "Interpretation threshold changes are used based on herd history to manage risk; exams often test the logic (sensitivity vs specificity)."
+        },
+        {
+          "id": "FA2-TB-044",
+          "stem": "Compared with SICCT, gamma interferon can identify infection earlier at about:",
+          "options": [
+            { "key": "A", "text": "Same time only (3–6 weeks)" },
+            { "key": "B", "text": "1–4 weeks after infection" },
+            { "key": "C", "text": "Only after 6 months" },
+            { "key": "D", "text": "Only after visible lesions appear" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Gamma IFN can detect earlier: ~1–4 weeks.",
+          "explanationLong": "Often examined as an advantage: earlier detection, but increased false positives."
+        },
+        {
+          "id": "FA2-TB-045",
+          "stem": "Which is the best reason gamma interferon is not used as the sole routine test everywhere?",
+          "options": [
+            { "key": "A", "text": "It cannot detect infection at all" },
+            { "key": "B", "text": "Higher false positive rate and specific use criteria" },
+            { "key": "C", "text": "It is only useful in sheep" },
+            { "key": "D", "text": "It requires faecal samples only" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "More false positives; used alongside SICCT in specific situations.",
+          "explanationLong": "It can be very useful but is not a universal replacement because of specificity/cost/logistics and policy criteria."
+        },
+        {
+          "id": "FA2-TB-046",
+          "stem": "Typical clinical signs of bTB (when present) may include:",
+          "options": [
+            { "key": "A", "text": "Acute neurological collapse in minutes" },
+            { "key": "B", "text": "Weight loss, swollen lymph nodes, chronic cough, chronic mastitis" },
+            { "key": "C", "text": "Severe vesicular oral lesions" },
+            { "key": "D", "text": "Acute watery diarrhoea in all cases" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Chronic wasting/cough/lymph nodes/mastitis are possible.",
+          "explanationLong": "Clinical signs are variable and often absent early; these are the classic chronic-type signs when they do occur."
+        },
+        {
+          "id": "FA2-TB-047",
+          "stem": "A key biosecurity message for bTB control inside a herd is to prioritise:",
+          "options": [
+            { "key": "A", "text": "Only wildlife control; ignore cattle movements" },
+            { "key": "B", "text": "Managing cattle-to-cattle spread and indirect contact via equipment/contractors" },
+            { "key": "C", "text": "Treating all cows prophylactically" },
+            { "key": "D", "text": "Avoiding vaccination of calves only" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Control cattle transmission + indirect routes.",
+          "explanationLong": "Because shedding can occur via secretions, shared equipment and movements are practical control points alongside wider policy measures."
+        },
+        {
+          "id": "FA2-TB-048",
+          "stem": "Which statement best matches slaughterhouse surveillance in bTB control?",
+          "options": [
+            { "key": "A", "text": "It is irrelevant because reactors are never examined" },
+            { "key": "B", "text": "Reactor cattle have post-mortem examination and samples for culture/genotyping" },
+            { "key": "C", "text": "Only milk samples are checked" },
+            { "key": "D", "text": "It replaces all farm testing" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Reactors are examined and sampled.",
+          "explanationLong": "Post-mortem findings and lab confirmation contribute to surveillance and epidemiology."
+        },
+        {
+          "id": "FA2-TB-049",
+          "stem": "In vena cava thrombosis, the most accurate statement on treatment is:",
+          "options": [
+            { "key": "A", "text": "Curative antibiotic protocols are usually successful" },
+            { "key": "B", "text": "No effective treatment; consider casualty slaughter if appropriate" },
+            { "key": "C", "text": "NSAIDs alone reverse thrombi reliably" },
+            { "key": "D", "text": "Surgery is routinely performed on farm" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Often no effective treatment.",
+          "explanationLong": "Prognosis is poor once haemoptysis occurs; management is often salvage/casualty slaughter if welfare and regulations permit."
+        },
+        {
+          "id": "FA2-TB-050",
+          "stem": "In vena cava thrombosis, the most common site emboli lodge is:",
+          "options": [
+            { "key": "A", "text": "Brain" },
+            { "key": "B", "text": "Kidney" },
+            { "key": "C", "text": "Lungs" },
+            { "key": "D", "text": "Spleen" }
+          ],
+          "correctKey": "C",
+          "explanationShort": "Emboli commonly lodge in lungs causing abscessation.",
+          "explanationLong": "Thrombus fragments travel via bloodstream to the pulmonary vasculature → abscesses/pneumonia → haemoptysis."
+        }
+      ]
+    }
+  ]
+},
+    
  {
   "id": "equine",
   "title": "Equine",
@@ -1414,9 +2101,697 @@
       ]
     }
   ]
+},
+
+{
+  "id": "equine-set-rcvs-50-2",
+  "title": "RCVS Equine Mock Exam – 50 MCQs (Set 2)",
+  "subcategories": [
+    {
+      "id": "eq2-endocrine-hyperlipaemia",
+      "title": "Endocrine & Hyperlipaemia (Ponies/Donkeys)",
+      "questions": [
+        {
+          "id": "EQ2-EN-001",
+          "stem": "Hyperlipaemia is most classically a disease of:",
+          "options": [
+            { "key": "A", "text": "Fit Thoroughbreds in full training" },
+            { "key": "B", "text": "Obese ponies and donkeys in negative energy balance" },
+            { "key": "C", "text": "Neonatal foals only" },
+            { "key": "D", "text": "Only lactating mares with normal appetite" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Fat ponies/donkeys that stop eating = classic.",
+          "explanationLong": "Hyperlipaemia (fatty liver syndrome) is strongly linked to insulin resistance + negative energy balance, especially in ponies and donkeys."
+        },
+        {
+          "id": "EQ2-EN-002",
+          "stem": "The defining laboratory abnormality in hyperlipaemia is:",
+          "options": [
+            { "key": "A", "text": "Hypocalcaemia" },
+            { "key": "B", "text": "Marked hypertriglyceridaemia" },
+            { "key": "C", "text": "Hypernatraemia only" },
+            { "key": "D", "text": "Severe anaemia always" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "High triglycerides (lipemic blood).",
+          "explanationLong": "Diagnosis is based on elevated triglycerides; serum/plasma may appear cloudy/milky."
+        },
+        {
+          "id": "EQ2-EN-003",
+          "stem": "Which is a common risk factor listed for hyperlipaemia?",
+          "options": [
+            { "key": "A", "text": "High exercise workload" },
+            { "key": "B", "text": "Starvation/inappetence or stress (e.g., transport)" },
+            { "key": "C", "text": "Cold weather only" },
+            { "key": "D", "text": "Exclusive pasture access with normal appetite" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Not eating + stress triggers it.",
+          "explanationLong": "Negative energy balance triggers fat mobilisation; stressors and concurrent disease are classic triggers."
+        },
+        {
+          "id": "EQ2-EN-004",
+          "stem": "First-line principle of hyperlipaemia treatment is best summarised as:",
+          "options": [
+            { "key": "A", "text": "Promote lipolysis to clear fat faster" },
+            { "key": "B", "text": "Restore positive energy balance urgently (nutrition + IV glucose as needed)" },
+            { "key": "C", "text": "Withhold feed until triglycerides normalise" },
+            { "key": "D", "text": "Only give NSAIDs and wait" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Get calories in ASAP.",
+          "explanationLong": "Successful treatment depends on reversing negative energy balance: feed support + glucose infusion and treat underlying cause."
+        },
+        {
+          "id": "EQ2-EN-005",
+          "stem": "Heparin may be used in hyperlipaemia primarily to:",
+          "options": [
+            { "key": "A", "text": "Increase lipoprotein lipase activity and help clear triglycerides" },
+            { "key": "B", "text": "Directly block hepatic glucose output" },
+            { "key": "C", "text": "Sterilise gut bacteria" },
+            { "key": "D", "text": "Increase cortisol to improve appetite" }
+          ],
+          "correctKey": "A",
+          "explanationShort": "Heparin can support TG clearance via LPL.",
+          "explanationLong": "Notes describe heparin to increase lipoprotein lipase activity to aid triglyceride removal."
+        },
+        {
+          "id": "EQ2-EN-006",
+          "stem": "Prognosis in hyperlipaemia is generally:",
+          "options": [
+            { "key": "A", "text": "Excellent in most cases without urgent action" },
+            { "key": "B", "text": "Poor; improved when voluntary food intake returns" },
+            { "key": "C", "text": "Always good if triglycerides are high" },
+            { "key": "D", "text": "Only poor in horses, not donkeys" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Often poor—eating again improves outlook.",
+          "explanationLong": "Hyperlipaemia can progress to organ dysfunction and death; early intervention and restoring appetite are key."
+        },
+        {
+          "id": "EQ2-EN-007",
+          "stem": "A typical appearance of plasma/serum in hyperlipaemia is:",
+          "options": [
+            { "key": "A", "text": "Green and bile-stained" },
+            { "key": "B", "text": "Clear and watery" },
+            { "key": "C", "text": "Cloudy to milky (lipemic)" },
+            { "key": "D", "text": "Black with clots" }
+          ],
+          "correctKey": "C",
+          "explanationShort": "Milky blood is a big clue.",
+          "explanationLong": "Lipemia reflects high circulating triglycerides/VLDLs."
+        },
+        {
+          "id": "EQ2-EN-008",
+          "stem": "Which statement about equids and fat metabolism supports why hyperlipaemia can be severe?",
+          "options": [
+            { "key": "A", "text": "Equids have unlimited ketone production capacity" },
+            { "key": "B", "text": "Equids have limited ability to convert NEFAs into ketones, promoting TG accumulation" },
+            { "key": "C", "text": "Equids cannot mobilise fat at all" },
+            { "key": "D", "text": "Equids only store fat in the liver normally" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "They can accumulate TGs rapidly.",
+          "explanationLong": "Notes highlight limited metabolic pathways compared with other species, contributing to high TGs and fatty liver."
+        },
+        {
+          "id": "EQ2-EN-009",
+          "stem": "A donkey on cardboard bedding is at increased hyperlipaemia risk mainly because:",
+          "options": [
+            { "key": "A", "text": "Cardboard causes direct hepatic toxicity" },
+            { "key": "B", "text": "Ingestion is linked to increased risk (management risk factor)" },
+            { "key": "C", "text": "Cardboard increases insulin sensitivity" },
+            { "key": "D", "text": "It prevents them from drinking" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "It’s listed as a risk factor in donkeys.",
+          "explanationLong": "The notes list bedding type as a risk factor, particularly cardboard where ingestion may occur."
+        },
+        {
+          "id": "EQ2-EN-010",
+          "stem": "A practical early suspicion trigger for hyperlipaemia is:",
+          "options": [
+            { "key": "A", "text": "Any thin horse with a good appetite" },
+            { "key": "B", "text": "Any overweight pony/donkey that becomes anorexic and depressed" },
+            { "key": "C", "text": "Any horse with normal plasma and normal liver enzymes" },
+            { "key": "D", "text": "Only foals with diarrhoea" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Fat pony/donkey + anorexia = emergency suspicion.",
+          "explanationLong": "This is a classic exam pattern recognition point and matches the “presumptive diagnosis” description."
+        }
+      ]
+    },
+    {
+      "id": "eq2-parasitology",
+      "title": "Internal Parasites (Cyathostomins, Tapeworm, Pinworm)",
+      "questions": [
+        {
+          "id": "EQ2-PA-011",
+          "stem": "Most common internal parasite group in horses is:",
+          "options": [
+            { "key": "A", "text": "Large strongyles (Strongylus spp.)" },
+            { "key": "B", "text": "Small strongyles (cyathostomins)" },
+            { "key": "C", "text": "Tapeworms" },
+            { "key": "D", "text": "Lungworms" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Cyathostomins are the commonest.",
+          "explanationLong": "Notes state >95% of a horse’s parasite burden can be cyathostomins."
+        },
+        {
+          "id": "EQ2-PA-012",
+          "stem": "A key limitation of FWEC in cyathostomin disease is:",
+          "options": [
+            { "key": "A", "text": "It detects encysted larvae very well" },
+            { "key": "B", "text": "It cannot identify encysted small redworm larvae" },
+            { "key": "C", "text": "It only works in winter" },
+            { "key": "D", "text": "It detects tapeworm better than ELISA" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "FWEC misses encysted larvae.",
+          "explanationLong": "Encysted larval burden can be high with low egg output; exams love this trap."
+        },
+        {
+          "id": "EQ2-PA-013",
+          "stem": "Best method to assess anthelmintic efficacy in horses (per notes) is:",
+          "options": [
+            { "key": "A", "text": "Single FWEC only" },
+            { "key": "B", "text": "FECRT day 0 and day 14 post-treatment" },
+            { "key": "C", "text": "Urinalysis" },
+            { "key": "D", "text": "Serum calcium measurement" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "FECRT day 0 and day 14.",
+          "explanationLong": "Faecal egg count reduction testing is the standard way to check resistance/efficacy."
+        },
+        {
+          "id": "EQ2-PA-014",
+          "stem": "Which drug is highlighted as the only effective single-dose larvicidal option for encysted cyathostomins?",
+          "options": [
+            { "key": "A", "text": "Ivermectin" },
+            { "key": "B", "text": "Moxidectin" },
+            { "key": "C", "text": "Praziquantel" },
+            { "key": "D", "text": "Pyrantel (single dose)" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Moxidectin is the key larvicidal drug.",
+          "explanationLong": "Notes state moxidectin is the only effective larvicidal drug (single dose) for encysted stages."
+        },
+        {
+          "id": "EQ2-PA-015",
+          "stem": "Tapeworm Anoplocephala perfoliata is most commonly located at the:",
+          "options": [
+            { "key": "A", "text": "Stomach cardia" },
+            { "key": "B", "text": "Ileocecal junction" },
+            { "key": "C", "text": "Rectum" },
+            { "key": "D", "text": "Duodenum" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Ileocecal junction.",
+          "explanationLong": "This location is linked to ileal impactions and ileocecal intussusception risk."
+        },
+        {
+          "id": "EQ2-PA-016",
+          "stem": "A. perfoliata infection is a significant risk factor for which colic patterns (per notes)?",
+          "options": [
+            { "key": "A", "text": "Only gastric rupture" },
+            { "key": "B", "text": "Spasmodic colic and ileal impaction" },
+            { "key": "C", "text": "Only large colon volvulus" },
+            { "key": "D", "text": "Only renal colic" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Spasmodic colic + ileal impaction risk.",
+          "explanationLong": "Notes describe studies linking intensity of infection with spasmodic colic risk and ileal impactions."
+        },
+        {
+          "id": "EQ2-PA-017",
+          "stem": "Preferred drug if targeting only tapeworm is:",
+          "options": [
+            { "key": "A", "text": "Praziquantel" },
+            { "key": "B", "text": "Fenbendazole (single dose)" },
+            { "key": "C", "text": "Moxidectin only" },
+            { "key": "D", "text": "Oxytetracycline" }
+          ],
+          "correctKey": "A",
+          "explanationShort": "Praziquantel is the tapeworm-specific go-to.",
+          "explanationLong": "Pyrantel can also be used (double dose), but praziquantel is preferred when focusing on tapeworm."
+        },
+        {
+          "id": "EQ2-PA-018",
+          "stem": "Pinworm (Oxyuris equi) most classically causes:",
+          "options": [
+            { "key": "A", "text": "Marked haemolytic anaemia" },
+            { "key": "B", "text": "Tail rubbing and perineal irritation" },
+            { "key": "C", "text": "Severe respiratory distress" },
+            { "key": "D", "text": "Hindlimb ataxia" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Tail rubbing is the classic sign.",
+          "explanationLong": "Egg deposition around perineum causes irritation; diagnosis often uses adhesive tape test."
+        },
+        {
+          "id": "EQ2-PA-019",
+          "stem": "Best practical diagnostic method for pinworm is often:",
+          "options": [
+            { "key": "A", "text": "Bronchoalveolar lavage" },
+            { "key": "B", "text": "Sellotape/adhesive tape test perineally" },
+            { "key": "C", "text": "CSF tap" },
+            { "key": "D", "text": "Urine culture" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Tape test is classic for pinworm eggs.",
+          "explanationLong": "Eggs are laid perianally, so FWEC may miss; tape test improves detection."
+        },
+        {
+          "id": "EQ2-PA-020",
+          "stem": "Targeted strategic dosing in horses typically uses FWEC and treats only horses above about:",
+          "options": [
+            { "key": "A", "text": "10 EPG" },
+            { "key": "B", "text": "50 EPG" },
+            { "key": "C", "text": "200 EPG" },
+            { "key": "D", "text": "1000 EPG" }
+          ],
+          "correctKey": "C",
+          "explanationShort": ">200 EPG is a common treatment threshold.",
+          "explanationLong": "Notes describe only treating horses above ~200 EPG to reduce unnecessary anthelmintic use and resistance pressure."
+        }
+      ]
+    },
+    {
+      "id": "eq2-dentistry",
+      "title": "Dentistry (Infundibular Caries)",
+      "questions": [
+        {
+          "id": "EQ2-DE-021",
+          "stem": "Infundibular caries (IC) is primarily a disorder of:",
+          "options": [
+            { "key": "A", "text": "Mandibular cheek teeth only" },
+            { "key": "B", "text": "Maxillary teeth infundibula" },
+            { "key": "C", "text": "Incisors only" },
+            { "key": "D", "text": "Canine teeth only" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "It affects maxillary cheek teeth infundibula.",
+          "explanationLong": "Notes describe IC as an insidious disorder of maxillary teeth and a cause of apical infection/fracture."
+        },
+        {
+          "id": "EQ2-DE-022",
+          "stem": "A primary underlying cause described for IC is:",
+          "options": [
+            { "key": "A", "text": "Excess fluoride in water" },
+            { "key": "B", "text": "Infundibular cemental hypoplasia (incomplete cementum filling)" },
+            { "key": "C", "text": "Primary bacterial pneumonia" },
+            { "key": "D", "text": "Traumatic overfloating" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "ICH predisposes to caries.",
+          "explanationLong": "Incomplete cemental filling leads to caries progression and structural weakness."
+        },
+        {
+          "id": "EQ2-DE-023",
+          "stem": "Which clinical sign is consistent with significant dental disease including IC?",
+          "options": [
+            { "key": "A", "text": "Quidding/dysmasticating" },
+            { "key": "B", "text": "Purely inspiratory stridor only" },
+            { "key": "C", "text": "Nasal vesicles" },
+            { "key": "D", "text": "Milk drop only" }
+          ],
+          "correctKey": "A",
+          "explanationShort": "Quidding is classic for dental pain/problems.",
+          "explanationLong": "Notes list dysmastication/quidding, weight loss and premature tooth loss as signs."
+        },
+        {
+          "id": "EQ2-DE-024",
+          "stem": "Best imaging view mentioned for diagnosing IC is:",
+          "options": [
+            { "key": "A", "text": "Thoracic radiographs" },
+            { "key": "B", "text": "Open-mouth oblique radiographic views" },
+            { "key": "C", "text": "Ultrasound of the liver" },
+            { "key": "D", "text": "CT is mandatory in every case" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Open-mouth oblique views are specifically noted.",
+          "explanationLong": "Oral exam plus open-mouth oblique radiographs are described for diagnosis."
+        },
+        {
+          "id": "EQ2-DE-025",
+          "stem": "IC grading: Grade 3 implies involvement of:",
+          "options": [
+            { "key": "A", "text": "Cementum only" },
+            { "key": "B", "text": "Cementum + enamel + dentine" },
+            { "key": "C", "text": "Enamel only" },
+            { "key": "D", "text": "Dentine only" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Grade 3 includes dentine.",
+          "explanationLong": "Notes outline progression: cementum → enamel → dentine; deeper involvement increases fracture/apical infection risk."
+        },
+        {
+          "id": "EQ2-DE-026",
+          "stem": "A commonly cited threshold for considering restoration in IC is:",
+          "options": [
+            { "key": "A", "text": "Any Grade 1 lesion" },
+            { "key": "B", "text": "Grade 3+ with ≥10 mm probing depth" },
+            { "key": "C", "text": "Only Grade 0 teeth" },
+            { "key": "D", "text": "Only if the horse is <2 years old" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Grade 3+ and deep probing can trigger restoration decisions.",
+          "explanationLong": "Notes specify IC grade ≥3 with at least ~10 mm probing depth as a key decision point."
+        },
+        {
+          "id": "EQ2-DE-027",
+          "stem": "Infundibular caries can predispose to:",
+          "options": [
+            { "key": "A", "text": "Pathological fractures and apical infection" },
+            { "key": "B", "text": "Laminitis only" },
+            { "key": "C", "text": "Atrial fibrillation" },
+            { "key": "D", "text": "Guttural pouch empyema" }
+          ],
+          "correctKey": "A",
+          "explanationShort": "Structural weakening can lead to fracture/apical infection.",
+          "explanationLong": "This is a core consequence highlighted in the notes."
+        },
+        {
+          "id": "EQ2-DE-028",
+          "stem": "Which statement is most consistent with IC epidemiology in the notes?",
+          "options": [
+            { "key": "A", "text": "Very rare (<1%) in UK horses" },
+            { "key": "B", "text": "Common in UK horses (noted as a sizable percentage)" },
+            { "key": "C", "text": "Occurs only in foals" },
+            { "key": "D", "text": "Occurs only in draft breeds" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "It’s described as common.",
+          "explanationLong": "The notes describe IC as a common dental disorder in UK horses."
+        },
+        {
+          "id": "EQ2-DE-029",
+          "stem": "A key prevention/control message for IC is:",
+          "options": [
+            { "key": "A", "text": "Avoid any dental exams to reduce trauma" },
+            { "key": "B", "text": "Routine dental examination/care is imperative" },
+            { "key": "C", "text": "Only treat when fractures occur" },
+            { "key": "D", "text": "Use antibiotics monthly" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Routine dental care matters.",
+          "explanationLong": "Early detection and monitoring are emphasised; many cases become significant only after progression."
+        },
+        {
+          "id": "EQ2-DE-030",
+          "stem": "A donkey with premature tooth loss most strongly raises suspicion for:",
+          "options": [
+            { "key": "A", "text": "Infundibular caries being a key cause" },
+            { "key": "B", "text": "Equine influenza" },
+            { "key": "C", "text": "AHS" },
+            { "key": "D", "text": "Stringhalt" }
+          ],
+          "correctKey": "A",
+          "explanationShort": "IC is a primary cause of premature tooth loss in donkeys (per notes).",
+          "explanationLong": "This is a nice exam-style species twist: donkeys feature strongly in the IC notes."
+        }
+      ]
+    },
+    {
+      "id": "eq2-cardiology-af",
+      "title": "Cardiology (Atrial Fibrillation & Quinidine)",
+      "questions": [
+        {
+          "id": "EQ2-CA-031",
+          "stem": "Most common pathological dysrhythmia in the horse is:",
+          "options": [
+            { "key": "A", "text": "Ventricular tachycardia" },
+            { "key": "B", "text": "Atrial fibrillation" },
+            { "key": "C", "text": "Complete AV block" },
+            { "key": "D", "text": "Atrial flutter is always more common than AF" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "AF is the commonest pathological arrhythmia.",
+          "explanationLong": "This is explicitly stated as an exam-frequent fact."
+        },
+        {
+          "id": "EQ2-CA-032",
+          "stem": "First-line pharmacologic cardioversion option described for equine AF is:",
+          "options": [
+            { "key": "A", "text": "Digoxin" },
+            { "key": "B", "text": "Quinidine" },
+            { "key": "C", "text": "Amoxicillin" },
+            { "key": "D", "text": "Furosemide" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Quinidine is the classic drug choice.",
+          "explanationLong": "Notes describe quinidine sulfate as the pharmacologic option of choice, commonly administered via stomach tube."
+        },
+        {
+          "id": "EQ2-CA-033",
+          "stem": "Quinidine therapy should generally be given:",
+          "options": [
+            { "key": "A", "text": "At home without monitoring if the horse is calm" },
+            { "key": "B", "text": "As an outpatient with weekly checks only" },
+            { "key": "C", "text": "In hospital with intensive monitoring due to frequent side effects" },
+            { "key": "D", "text": "Only IM as it cannot be given orally" }
+          ],
+          "correctKey": "C",
+          "explanationShort": "Needs hospital-level monitoring.",
+          "explanationLong": "Side effects/toxicity are common; continuous observation is recommended in the notes."
+        },
+        {
+          "id": "EQ2-CA-034",
+          "stem": "A realistic reason quinidine is given via stomach tube is:",
+          "options": [
+            { "key": "A", "text": "It is destroyed by stomach acid otherwise" },
+            { "key": "B", "text": "It has a bitter taste and can cause oral irritation" },
+            { "key": "C", "text": "It must be injected into the caecum" },
+            { "key": "D", "text": "It only works if mixed with hay" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Bitter taste/oral irritation.",
+          "explanationLong": "The notes specifically mention this practical administration reason."
+        },
+        {
+          "id": "EQ2-CA-035",
+          "stem": "Which scenario predicts best cardioversion prognosis with quinidine (per notes)?",
+          "options": [
+            { "key": "A", "text": "AF >2 years duration and severe structural disease" },
+            { "key": "B", "text": "Very short duration ‘lone AF’ and low resting HR" },
+            { "key": "C", "text": "AF with congestive heart failure signs" },
+            { "key": "D", "text": "AF in a horse with persistent high fever" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Short-duration lone AF does best.",
+          "explanationLong": "Notes mention better response when AF is short duration, lone AF, and resting HR is relatively low."
+        },
+        {
+          "id": "EQ2-CA-036",
+          "stem": "Which is a reported quinidine adverse effect spectrum in horses?",
+          "options": [
+            { "key": "A", "text": "Only mild itchiness" },
+            { "key": "B", "text": "Colic, diarrhoea, hypotension, weakness/ataxia, and severe arrhythmias" },
+            { "key": "C", "text": "Only hair loss" },
+            { "key": "D", "text": "Only kidney stones" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Wide range including dangerous arrhythmias.",
+          "explanationLong": "Notes list significant toxicity risk; hence intensive monitoring."
+        },
+        {
+          "id": "EQ2-CA-037",
+          "stem": "Therapeutic quinidine blood levels described are approximately:",
+          "options": [
+            { "key": "A", "text": "0.1–0.3 µg/L" },
+            { "key": "B", "text": "2–5 µg/L" },
+            { "key": "C", "text": "20–50 µg/L" },
+            { "key": "D", "text": "200–500 µg/L" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "2–5 µg/L is the noted therapeutic range.",
+          "explanationLong": "The notes give a narrow therapeutic window around 2–5 µg/L."
+        },
+        {
+          "id": "EQ2-CA-038",
+          "stem": "If a horse has signs of congestive heart failure, the notes advise:",
+          "options": [
+            { "key": "A", "text": "Riding improves cardiac output and is recommended" },
+            { "key": "B", "text": "Horses should not be ridden" },
+            { "key": "C", "text": "Only change diet; exercise is irrelevant" },
+            { "key": "D", "text": "Give praziquantel immediately" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "CHF signs = don’t ride.",
+          "explanationLong": "This is a practical welfare/safety point directly stated in the notes."
+        },
+        {
+          "id": "EQ2-CA-039",
+          "stem": "Most common congenital cardiac abnormality stated in the notes is:",
+          "options": [
+            { "key": "A", "text": "Patent ductus arteriosus" },
+            { "key": "B", "text": "Ventricular septal defect" },
+            { "key": "C", "text": "Tetralogy of Fallot" },
+            { "key": "D", "text": "Atrial septal defect" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "VSD is listed as most common congenital abnormality.",
+          "explanationLong": "This is included as a high-yield factual point in the cardiology notes."
+        },
+        {
+          "id": "EQ2-CA-040",
+          "stem": "A left-sided systolic murmur differential list in the notes includes:",
+          "options": [
+            { "key": "A", "text": "Only tricuspid regurgitation" },
+            { "key": "B", "text": "Physiological aortic flow, mitral regurgitation, ‘haemic’ murmurs" },
+            { "key": "C", "text": "Only pericarditis rub" },
+            { "key": "D", "text": "Only pulmonary oedema" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Those are the listed common causes.",
+          "explanationLong": "The notes outline typical left-sided systolic murmur causes including physiological flow and MR, plus haemic murmurs."
+        }
+      ]
+    },
+    {
+      "id": "eq2-gi-anatomy",
+      "title": "GI Anatomy & Exam Landmarks",
+      "questions": [
+        {
+          "id": "EQ2-GI-041",
+          "stem": "Correct flow order through equine large bowel is:",
+          "options": [
+            { "key": "A", "text": "Small intestine → descending colon → caecum → ascending colon" },
+            { "key": "B", "text": "Small intestine → caecum → ascending (large) colon → transverse colon → descending (small) colon" },
+            { "key": "C", "text": "Small intestine → transverse colon → caecum → rectum" },
+            { "key": "D", "text": "Small intestine → rectum → caecum → colon" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "SI → caecum → large colon → transverse → small colon.",
+          "explanationLong": "This is the canonical pathway and is a frequent anatomy exam target."
+        },
+        {
+          "id": "EQ2-GI-042",
+          "stem": "The pelvic flexure is located between:",
+          "options": [
+            { "key": "A", "text": "Right ventral colon and caecum" },
+            { "key": "B", "text": "Left ventral colon and left dorsal colon" },
+            { "key": "C", "text": "Transverse colon and descending colon" },
+            { "key": "D", "text": "Stomach and duodenum" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Pelvic flexure = left ventral → left dorsal.",
+          "explanationLong": "This landmark is classic for impactions and displacement discussions."
+        },
+        {
+          "id": "EQ2-GI-043",
+          "stem": "Which section is noted as having taenial bands in the summary?",
+          "options": [
+            { "key": "A", "text": "Left ventral colon" },
+            { "key": "B", "text": "Left dorsal colon (smooth)" },
+            { "key": "C", "text": "Descending colon only" },
+            { "key": "D", "text": "Duodenum" }
+          ],
+          "correctKey": "A",
+          "explanationShort": "Left ventral colon has taeniae.",
+          "explanationLong": "The notes contrast ventral colon (taenial bands) with left dorsal colon (smooth)."
+        },
+        {
+          "id": "EQ2-GI-044",
+          "stem": "The diaphragmatic flexure connects:",
+          "options": [
+            { "key": "A", "text": "Left ventral to left dorsal colon" },
+            { "key": "B", "text": "Left dorsal colon to right dorsal colon" },
+            { "key": "C", "text": "Right ventral colon to caecum" },
+            { "key": "D", "text": "Transverse colon to rectum" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Diaphragmatic flexure = left dorsal → right dorsal.",
+          "explanationLong": "Another high-yield flexure identification point."
+        },
+        {
+          "id": "EQ2-GI-045",
+          "stem": "Which of the following is the best statement about ileal impactions in the parasite section?",
+          "options": [
+            { "key": "A", "text": "They are unrelated to tapeworm infection" },
+            { "key": "B", "text": "They are a recognised risk associated with Anoplocephala perfoliata" },
+            { "key": "C", "text": "They occur only after quinidine therapy" },
+            { "key": "D", "text": "They occur only in foals <2 weeks old" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Tapeworm is linked to ileal impactions.",
+          "explanationLong": "Notes describe ileal impaction and intussusception risks increasing with tapeworm infection intensity."
+        },
+        {
+          "id": "EQ2-GI-046",
+          "stem": "A horse with protein-losing enteropathy and watery diarrhoea should raise suspicion for:",
+          "options": [
+            { "key": "A", "text": "Cyathostominosis" },
+            { "key": "B", "text": "Equine influenza" },
+            { "key": "C", "text": "AHS" },
+            { "key": "D", "text": "Coffin joint osteoarthritis" }
+          ],
+          "correctKey": "A",
+          "explanationShort": "Cyathostomins are a classic cause.",
+          "explanationLong": "Notes state cyathostominosis should be considered in horses with protein-losing enteropathy and watery diarrhoea."
+        },
+        {
+          "id": "EQ2-GI-047",
+          "stem": "Larval cyathostominosis syndrome is dangerous mainly because:",
+          "options": [
+            { "key": "A", "text": "It causes only mild itchiness" },
+            { "key": "B", "text": "Mass emergence can be fatal and is associated with high mortality" },
+            { "key": "C", "text": "It occurs only in very old horses" },
+            { "key": "D", "text": "It is always cured by praziquantel" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Mass emergence can be fatal (high mortality).",
+          "explanationLong": "The notes emphasise potentially fatal consequences and significant mortality with larval emergence."
+        },
+        {
+          "id": "EQ2-GI-048",
+          "stem": "Which management approach aligns with targeted strategic dosing described in the notes?",
+          "options": [
+            { "key": "A", "text": "Treat every horse every month regardless of egg counts" },
+            { "key": "B", "text": "FWEC monitoring and treat only higher shedders plus tapeworm ELISA periodically" },
+            { "key": "C", "text": "Never deworm any horse to avoid resistance" },
+            { "key": "D", "text": "Use antibiotics instead of anthelmintics" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Monitor, treat selectively, and include tapeworm testing strategy.",
+          "explanationLong": "The notes outline a targeted approach using FWEC thresholds and regular tapeworm ELISA (blood/saliva)."
+        },
+        {
+          "id": "EQ2-GI-049",
+          "stem": "Which diagnostic approach is specifically stated as NOT diagnosing larval cyathostominosis syndrome?",
+          "options": [
+            { "key": "A", "text": "FWEC alone" },
+            { "key": "B", "text": "ELISA for IgG(T) antibodies to cyathostomins" },
+            { "key": "C", "text": "Clinical pattern + supportive evidence" },
+            { "key": "D", "text": "Considering seasonality and risk group" }
+          ],
+          "correctKey": "A",
+          "explanationShort": "FWEC alone isn’t diagnostic for larval disease.",
+          "explanationLong": "Because encysted larvae may not shed eggs, FWEC can be falsely reassuring."
+        },
+        {
+          "id": "EQ2-GI-050",
+          "stem": "A correct statement about tapeworm diagnostics in the notes is:",
+          "options": [
+            { "key": "A", "text": "FWEC is highly reliable alone for tapeworm" },
+            { "key": "B", "text": "ELISA (blood/saliva) is recommended because FWEC is poor for tapeworm" },
+            { "key": "C", "text": "Tape test is best for tapeworm" },
+            { "key": "D", "text": "Only gastroscopy diagnoses tapeworm" }
+          ],
+          "correctKey": "B",
+          "explanationShort": "Use ELISA because FWEC is poor for tapeworm.",
+          "explanationLong": "The notes highlight FWEC’s limitations and recommend ELISA testing strategies (blood/saliva)."
+        }
+      ]
+    }
+  ]
 }
 ]
 }
+
 
 
 
