@@ -698,132 +698,720 @@
         }
       ]
     },
+ {
+  "id": "equine",
+  "title": "Equine",
+  "sets": [
     {
-      "id": "equine",
-      "title": "Equine",
-      "sets": [
-  {
-    "id": "equine-set-rcvs-50",
-    "title": "RCVS Equine Mock Exam – 50 MCQs",
-    "subcategories": [
-      {
-        "id": "eq-colic",
-        "title": "Colic & Gastrointestinal",
-        "questions": [
-          {
-            "id": "EQ-01",
-            "stem": "A 10-year-old gelding with moderate colic has HR 68 bpm, congested MM, CRT 3 seconds, no reflux on NG tube. Rectal exam reveals tight bands across abdomen. Most likely diagnosis?",
-            "options": [
-              { "key": "A", "text": "Large colon displacement" },
-              { "key": "B", "text": "Small intestinal strangulation" },
-              { "key": "C", "text": "Large colon volvulus" },
-              { "key": "D", "text": "Impaction colic" }
-            ],
-            "correctKey": "C",
-            "explanationShort": "Tight bands + high HR suggests volvulus.",
-            "explanationLong": "Large colon volvulus causes severe pain, high heart rate and tight bands on rectal exam. Absence of reflux makes small intestinal strangulation less likely."
-          },
-          {
-            "id": "EQ-02",
-            "stem": "Most reliable indicator of surgical colic?",
-            "options": [
-              { "key": "A", "text": "Abdominal distension" },
-              { "key": "B", "text": "Persistent pain despite analgesia" },
-              { "key": "C", "text": "Reduced borborygmi" },
-              { "key": "D", "text": "Mild tachycardia" }
-            ],
-            "correctKey": "B",
-            "explanationShort": "Uncontrollable pain strongly suggests surgery.",
-            "explanationLong": "Persistent pain unresponsive to analgesia is one of the strongest indicators of a strangulating lesion requiring surgery."
-          },
-          {
-            "id": "EQ-03",
-            "stem": "Small intestinal strangulation most commonly results in:",
-            "options": [
-              { "key": "A", "text": "Hypoproteinaemia" },
-              { "key": "B", "text": "Hypochloraemic metabolic alkalosis" },
-              { "key": "C", "text": "Hyperlactataemia" },
-              { "key": "D", "text": "Hyperkalaemia" }
-            ],
-            "correctKey": "C",
-            "explanationShort": "Strangulation leads to increased lactate.",
-            "explanationLong": "Compromised perfusion results in anaerobic metabolism and elevated blood lactate."
-          }
-        ]
-      },
-      {
-        "id": "eq-lameness",
-        "title": "Lameness & Orthopaedics",
-        "questions": [
-          {
-            "id": "EQ-16",
-            "stem": "Most common cause of forelimb lameness:",
-            "options": [
-              { "key": "A", "text": "Tendon rupture" },
-              { "key": "B", "text": "Navicular disease" },
-              { "key": "C", "text": "Foot pain" },
-              { "key": "D", "text": "Fracture" }
-            ],
-            "correctKey": "C",
-            "explanationShort": "Most forelimb lameness originates in the foot.",
-            "explanationLong": "The majority of forelimb lameness cases localise to the foot using diagnostic nerve blocks."
-          },
-          {
-            "id": "EQ-17",
-            "stem": "Positive response to palmar digital nerve block localises pain to:",
-            "options": [
-              { "key": "A", "text": "Fetlock" },
-              { "key": "B", "text": "Carpus" },
-              { "key": "C", "text": "Foot" },
-              { "key": "D", "text": "Shoulder" }
-            ],
-            "correctKey": "C",
-            "explanationShort": "PD block localises pain to the foot.",
-            "explanationLong": "The palmar digital nerve block desensitises the foot structures including navicular region."
-          }
-        ]
-      },
-      {
-        "id": "eq-repro",
-        "title": "Reproduction",
-        "questions": [
-          {
-            "id": "EQ-26",
-            "stem": "The mare is seasonally:",
-            "options": [
-              { "key": "A", "text": "Polyestrous year-round" },
-              { "key": "B", "text": "Monoestrous" },
-              { "key": "C", "text": "Long-day polyestrous" },
-              { "key": "D", "text": "Short-day polyestrous" }
-            ],
-            "correctKey": "C",
-            "explanationShort": "Mares cycle during long daylight months.",
-            "explanationLong": "Mares are long-day breeders with peak cyclicity in spring and summer."
-          }
-        ]
-      },
-      {
-        "id": "eq-infectious",
-        "title": "Infectious & Notifiable",
-        "questions": [
-          {
-            "id": "EQ-48",
-            "stem": "Notifiable equine disease in UK:",
-            "options": [
-              { "key": "A", "text": "Strangles" },
-              { "key": "B", "text": "Equine influenza" },
-              { "key": "C", "text": "African Horse Sickness" },
-              { "key": "D", "text": "EPM" }
-            ],
-            "correctKey": "C",
-            "explanationShort": "African Horse Sickness is notifiable.",
-            "explanationLong": "African Horse Sickness is a notifiable disease due to its severe economic and welfare impact."
-          }
-        ]
-      }
-    ]
-  }
-]
+      "id": "equine-set-rcvs-50",
+      "title": "RCVS Equine Mock Exam – 50 MCQs (High Yield)",
+      "subcategories": [
+        {
+          "id": "eq-colic",
+          "title": "Colic & Gastrointestinal",
+          "questions": [
+            {
+              "id": "EQ-01",
+              "stem": "A 10-year-old gelding with moderate colic has HR 68 bpm, congested MM, CRT 3 seconds, no reflux on NG tube. Rectal exam reveals tight bands across abdomen. Most likely diagnosis?",
+              "options": [
+                { "key": "A", "text": "Large colon displacement" },
+                { "key": "B", "text": "Small intestinal strangulation" },
+                { "key": "C", "text": "Large colon volvulus" },
+                { "key": "D", "text": "Impaction colic" }
+              ],
+              "correctKey": "C",
+              "explanationShort": "Tight bands + high HR = classic large colon volvulus pattern.",
+              "explanationLong": "Large colon volvulus often causes rapid cardiovascular compromise (tachycardia, congested membranes, prolonged CRT) and tight bands/taeniae palpable per rectum. Lack of reflux makes primary small intestinal obstruction less likely."
+            },
+            {
+              "id": "EQ-02",
+              "stem": "Which finding is the strongest indicator of a surgical colic lesion?",
+              "options": [
+                { "key": "A", "text": "Mild abdominal distension" },
+                { "key": "B", "text": "Persistent pain despite adequate analgesia" },
+                { "key": "C", "text": "Reduced borborygmi" },
+                { "key": "D", "text": "Rectal temperature 38.3°C" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Pain that won’t settle is the biggest red flag for surgery.",
+              "explanationLong": "Repeated/continuous pain despite appropriate analgesia is strongly associated with strangulating or otherwise surgical lesions and often triggers referral/exploration."
+            },
+            {
+              "id": "EQ-03",
+              "stem": "A horse with suspected strangulating obstruction has increasing blood lactate. The most appropriate interpretation is:",
+              "options": [
+                { "key": "A", "text": "Likely dehydration only" },
+                { "key": "B", "text": "Likely hypoventilation" },
+                { "key": "C", "text": "Increasing tissue hypoperfusion/anaerobic metabolism" },
+                { "key": "D", "text": "A marker of parasitism severity" }
+              ],
+              "correctKey": "C",
+              "explanationShort": "Rising lactate = worsening perfusion.",
+              "explanationLong": "Hyperlactataemia reflects anaerobic metabolism from inadequate oxygen delivery (shock, strangulation). Trends are often more informative than single values."
+            },
+            {
+              "id": "EQ-04",
+              "stem": "Large colon torsion >360° is most likely to cause:",
+              "options": [
+                { "key": "A", "text": "Mild intermittent pain and normal mucous membranes" },
+                { "key": "B", "text": "Severe endotoxaemia and rapid cardiovascular deterioration" },
+                { "key": "C", "text": "Chronic weight loss without pain" },
+                { "key": "D", "text": "Profuse reflux as the earliest sign" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Severe torsion compromises blood supply → endotoxaemia.",
+              "explanationLong": "Strangulation of the large colon leads to ischaemia, endotoxin absorption, shock and rapid deterioration; reflux is more typical of proximal small intestinal obstruction."
+            },
+            {
+              "id": "EQ-05",
+              "stem": "Best single prognostic indicator in equine colic management (practical clinical setting):",
+              "options": [
+                { "key": "A", "text": "Single PCV value at presentation" },
+                { "key": "B", "text": "Trend in plasma lactate over time" },
+                { "key": "C", "text": "Rectal temperature" },
+                { "key": "D", "text": "Auscultation of borborygmi" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Lactate trend is very useful for prognosis/decision-making.",
+              "explanationLong": "Serial lactate reflects ongoing perfusion and response to fluid resuscitation; persistently high/rising lactate increases suspicion of strangulation and worsens prognosis."
+            },
+            {
+              "id": "EQ-06",
+              "stem": "A horse has recurrent mild colic and diarrhoea after turnout in sandy paddock. Best test to confirm sand accumulation?",
+              "options": [
+                { "key": "A", "text": "Auscultation for 'sand sounds' only" },
+                { "key": "B", "text": "Rectal palpation" },
+                { "key": "C", "text": "Abdominal radiography" },
+                { "key": "D", "text": "Oral glucose absorption test" }
+              ],
+              "correctKey": "C",
+              "explanationShort": "Radiographs show sand best.",
+              "explanationLong": "Sand is radiopaque and can be visualised/quantified on radiographs; rectal palpation may miss it depending on location."
+            },
+            {
+              "id": "EQ-07",
+              "stem": "Which lesion most commonly results in significant gastric reflux on nasogastric intubation?",
+              "options": [
+                { "key": "A", "text": "Large colon impaction" },
+                { "key": "B", "text": "Small intestinal obstruction/strangulation" },
+                { "key": "C", "text": "Right dorsal displacement of the colon" },
+                { "key": "D", "text": "Mild spasmodic colic" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Small intestinal obstruction backs fluid up to the stomach.",
+              "explanationLong": "Proximal intestinal obstruction leads to accumulation of fluid and gas → reflux. Large colon lesions typically do not cause large reflux volumes early."
+            },
+            {
+              "id": "EQ-08",
+              "stem": "Post-operative ileus is most strongly associated with:",
+              "options": [
+                { "key": "A", "text": "Large colon displacement without enterotomy" },
+                { "key": "B", "text": "Small intestinal resection/anastomosis" },
+                { "key": "C", "text": "Simple caecal impaction managed medically" },
+                { "key": "D", "text": "Gastric ulcers treated with omeprazole" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Small intestine surgery → ileus risk.",
+              "explanationLong": "Small intestinal manipulation/resection increases inflammatory mediators and dysmotility risk; POI is a key postoperative complication in these cases."
+            },
+            {
+              "id": "EQ-09",
+              "stem": "A horse has signs of gastric ulceration. The most likely site of Equine Gastric Ulcer Syndrome (EGUS) in performance horses is:",
+              "options": [
+                { "key": "A", "text": "Glandular antrum only" },
+                { "key": "B", "text": "Squamous mucosa (margo plicatus region)" },
+                { "key": "C", "text": "Pylorus only" },
+                { "key": "D", "text": "Duodenum proximal segment" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Squamous ulcers are common in athletes.",
+              "explanationLong": "Squamous mucosa is poorly protected from acid and is exposed during exercise/fasting; glandular disease has different pathophysiology and can be harder to treat."
+            },
+            {
+              "id": "EQ-10",
+              "stem": "Most appropriate first-line treatment for squamous EGUS:",
+              "options": [
+                { "key": "A", "text": "Sucralfate alone" },
+                { "key": "B", "text": "Omeprazole" },
+                { "key": "C", "text": "Phenylbutazone with feed" },
+                { "key": "D", "text": "Metronidazole" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Omeprazole is the main first-line for squamous ulcers.",
+              "explanationLong": "Proton pump inhibitors (omeprazole) are most effective for acid suppression. Sucralfate may help especially in glandular disease but is not usually first-line alone for squamous disease."
+            }
+          ]
+        },
+        {
+          "id": "eq-resp",
+          "title": "Respiratory & Infectious Disease",
+          "questions": [
+            {
+              "id": "EQ-11",
+              "stem": "Most common cause of poor performance in racehorses (exam-frequent):",
+              "options": [
+                { "key": "A", "text": "Strangles" },
+                { "key": "B", "text": "EIPH (exercise-induced pulmonary haemorrhage)" },
+                { "key": "C", "text": "Pleuropneumonia" },
+                { "key": "D", "text": "RAO (heaves)" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "EIPH is a classic performance-limiting condition in racehorses.",
+              "explanationLong": "EIPH is common in racing Thoroughbreds; diagnosis often uses endoscopy/BAL. RAO is common but classically in stabled older horses, not racehorses."
+            },
+            {
+              "id": "EQ-12",
+              "stem": "Recurrent airway obstruction (RAO/heaves) is primarily:",
+              "options": [
+                { "key": "A", "text": "A primary bacterial pneumonia" },
+                { "key": "B", "text": "A hypersensitivity/inflammatory airway disease" },
+                { "key": "C", "text": "A congenital airway malformation" },
+                { "key": "D", "text": "A parasitic lungworm infection" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "It’s allergic/inflammatory, often triggered by dust/mould.",
+              "explanationLong": "RAO is an asthma-like syndrome with bronchoconstriction and neutrophilic airway inflammation; management focuses on environmental control plus bronchodilators/corticosteroids."
+            },
+            {
+              "id": "EQ-13",
+              "stem": "Strangles is caused by:",
+              "options": [
+                { "key": "A", "text": "Streptococcus equi subsp. equi" },
+                { "key": "B", "text": "Streptococcus equi subsp. zooepidemicus" },
+                { "key": "C", "text": "Rhodococcus equi" },
+                { "key": "D", "text": "Actinobacillus equuli" }
+              ],
+              "correctKey": "A",
+              "explanationShort": "Strangles = Strep equi equi.",
+              "explanationLong": "S. equi subsp. equi causes lymph node abscessation and nasal discharge/pyrexia; S. zooepidemicus is opportunistic and common in respiratory disease but not classic strangles."
+            },
+            {
+              "id": "EQ-14",
+              "stem": "“Bastard strangles” refers to:",
+              "options": [
+                { "key": "A", "text": "Chronic carrier state in guttural pouch" },
+                { "key": "B", "text": "Metastatic abscessation in internal organs" },
+                { "key": "C", "text": "Acute laryngeal paralysis after strangles" },
+                { "key": "D", "text": "Purpura haemorrhagica only" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Bastard strangles = internal abscess spread.",
+              "explanationLong": "Dissemination leads to abscesses in lungs/abdomen/brain etc. Purpura haemorrhagica is an immune-mediated vasculitis complication, but not the definition of “bastard strangles”."
+            },
+            {
+              "id": "EQ-15",
+              "stem": "Most appropriate immediate control measure during a suspected strangles outbreak on a yard:",
+              "options": [
+                { "key": "A", "text": "Treat all horses with antibiotics immediately" },
+                { "key": "B", "text": "Isolate cases, stop movements, and implement testing/monitoring" },
+                { "key": "C", "text": "Vaccinate all horses immediately regardless of status" },
+                { "key": "D", "text": "Allow training to continue if pyrexia is controlled" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Isolation + movement control is key.",
+              "explanationLong": "Biosecurity and separation of groups are critical. Blanket antibiotics are not always indicated and may complicate abscess maturation; vaccination is not an immediate substitute for outbreak control."
+            },
+            {
+              "id": "EQ-46",
+              "stem": "Equine influenza is mainly spread by:",
+              "options": [
+                { "key": "A", "text": "Ticks" },
+                { "key": "B", "text": "Aerosol/respiratory droplets" },
+                { "key": "C", "text": "Transplacental transmission" },
+                { "key": "D", "text": "Urine contamination" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "It’s an airborne/droplet spread respiratory virus.",
+              "explanationLong": "Equine influenza spreads rapidly via coughing/aerosols and close contact; fomites can contribute but aerosol is primary."
+            },
+            {
+              "id": "EQ-47",
+              "stem": "For most competition rules, influenza vaccination boosters are typically required at intervals of around:",
+              "options": [
+                { "key": "A", "text": "Every 3 months" },
+                { "key": "B", "text": "Every 6 months" },
+                { "key": "C", "text": "Every 18 months" },
+                { "key": "D", "text": "Every 3 years" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Many competition systems require ~6-monthly boosters.",
+              "explanationLong": "Exam questions often test the concept that competition horses typically need more frequent boosters than leisure horses; exact rules vary by authority, but 6 months is a common requirement."
+            }
+          ]
+        },
+        {
+          "id": "eq-lameness",
+          "title": "Lameness & Orthopaedics",
+          "questions": [
+            {
+              "id": "EQ-16",
+              "stem": "Most common source of forelimb lameness in horses is:",
+              "options": [
+                { "key": "A", "text": "Shoulder joint" },
+                { "key": "B", "text": "Carpus" },
+                { "key": "C", "text": "Foot (distal limb)" },
+                { "key": "D", "text": "Elbow" }
+              ],
+              "correctKey": "C",
+              "explanationShort": "Most forelimb lameness localises to the foot.",
+              "explanationLong": "A common exam point: the majority of forelimb lameness cases are distal, with the foot being the most frequent site."
+            },
+            {
+              "id": "EQ-17",
+              "stem": "A palmar digital nerve block most specifically localises pain to:",
+              "options": [
+                { "key": "A", "text": "Fetlock joint" },
+                { "key": "B", "text": "Carpal canal" },
+                { "key": "C", "text": "Foot and navicular region" },
+                { "key": "D", "text": "Proximal suspensory ligament" }
+              ],
+              "correctKey": "C",
+              "explanationShort": "PD block = foot/navicular structures.",
+              "explanationLong": "Palmar digital blocks desensitise the heel, sole, coffin joint region and navicular apparatus, helping localise distal foot pain."
+            },
+            {
+              "id": "EQ-18",
+              "stem": "A horse shows scapular muscle atrophy (“Sweeney”). Most likely nerve injury?",
+              "options": [
+                { "key": "A", "text": "Suprascapular nerve" },
+                { "key": "B", "text": "Radial nerve" },
+                { "key": "C", "text": "Median nerve" },
+                { "key": "D", "text": "Femoral nerve" }
+              ],
+              "correctKey": "A",
+              "explanationShort": "Sweeney = suprascapular nerve injury.",
+              "explanationLong": "Suprascapular nerve damage causes atrophy of supraspinatus/infraspinatus muscles and shoulder instability."
+            },
+            {
+              "id": "EQ-19",
+              "stem": "Stringhalt is characterised by:",
+              "options": [
+                { "key": "A", "text": "Bilateral toe dragging and stumbling" },
+                { "key": "B", "text": "Exaggerated hindlimb flexion during gait" },
+                { "key": "C", "text": "Locked stifle with inability to flex" },
+                { "key": "D", "text": "Painful swelling of the digital flexor tendon sheath" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Stringhalt = hyperflexion of the hindlimb.",
+              "explanationLong": "It is a neuromuscular gait abnormality with exaggerated flexion, often more obvious when backing or turning."
+            },
+            {
+              "id": "EQ-20",
+              "stem": "Upward fixation of the patella is best described as:",
+              "options": [
+                { "key": "A", "text": "Cruciate ligament rupture" },
+                { "key": "B", "text": "Medial patellar ligament hooks over medial trochlear ridge" },
+                { "key": "C", "text": "Meniscal tear causing joint effusion" },
+                { "key": "D", "text": "Osteochondrosis of lateral trochlear ridge" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "It’s a mechanical locking over the medial ridge.",
+              "explanationLong": "The patellar “locking” mechanism fails to release; often managed with conditioning, corrective shoeing, and sometimes medial patellar ligament desmotomy/splitting."
+            },
+            {
+              "id": "EQ-21",
+              "stem": "Most common route for septic arthritis in foals:",
+              "options": [
+                { "key": "A", "text": "Direct penetrating trauma" },
+                { "key": "B", "text": "Haematogenous spread (septicaemia)" },
+                { "key": "C", "text": "Iatrogenic after intra-articular injection" },
+                { "key": "D", "text": "Local extension from hoof abscess" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Foals usually get it via bloodstream.",
+              "explanationLong": "Failure of passive transfer → septicaemia → joint infection is classic in foals; multiple joints may be affected."
+            },
+            {
+              "id": "EQ-22",
+              "stem": "Laminitis pathogenesis most directly involves failure of:",
+              "options": [
+                { "key": "A", "text": "Deep digital flexor tendon" },
+                { "key": "B", "text": "Lamellar attachment between hoof wall and distal phalanx" },
+                { "key": "C", "text": "Collateral ligaments of the coffin joint" },
+                { "key": "D", "text": "Navicular bursa synovium" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Lamellae fail → P3 can rotate/sink.",
+              "explanationLong": "Inflammation/metabolic and vascular dysfunction leads to lamellar degradation and separation between the hoof wall and distal phalanx."
+            },
+            {
+              "id": "EQ-23",
+              "stem": "Most serious structural consequence of laminitis:",
+              "options": [
+                { "key": "A", "text": "Carpal osteoarthritis" },
+                { "key": "B", "text": "Distal phalanx rotation and/or sinking" },
+                { "key": "C", "text": "Splint bone fracture" },
+                { "key": "D", "text": "Coffin joint luxation without lamellar failure" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Rotation/sinking of P3 is the major feared complication.",
+              "explanationLong": "Mechanical failure of lamellae permits displacement of the distal phalanx; this drives chronic pain and poor prognosis."
+            },
+            {
+              "id": "EQ-24",
+              "stem": "High ringbone most commonly refers to osteoarthritis of the:",
+              "options": [
+                { "key": "A", "text": "Distal interphalangeal joint" },
+                { "key": "B", "text": "Proximal interphalangeal joint" },
+                { "key": "C", "text": "Fetlock joint only" },
+                { "key": "D", "text": "Carpometacarpal joint" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "High ringbone = PIP joint OA.",
+              "explanationLong": "Ringbone refers to osteoarthritis/periostitis around pastern region; high ringbone involves the PIP joint."
+            },
+            {
+              "id": "EQ-25",
+              "stem": "Bog spavin is best defined as:",
+              "options": [
+                { "key": "A", "text": "Osteoarthritis of distal hock joints" },
+                { "key": "B", "text": "Tibiotarsal joint effusion" },
+                { "key": "C", "text": "Plantar ligament desmitis" },
+                { "key": "D", "text": "Calcaneal bursitis" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Bog spavin = tibiotarsal effusion.",
+              "explanationLong": "Bog spavin is a distension of the tibiotarsal joint capsule; it may be incidental or linked to osteochondrosis/synovitis."
+            },
+            {
+              "id": "EQ-26",
+              "stem": "A horse with acute, severe lameness improves dramatically after a hoof tester response and paring reveals a tract. Most likely diagnosis?",
+              "options": [
+                { "key": "A", "text": "Septic pedal osteitis" },
+                { "key": "B", "text": "Solar abscess" },
+                { "key": "C", "text": "Navicular fracture" },
+                { "key": "D", "text": "Collateral ligament rupture of DIP joint" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Classic presentation of hoof abscess.",
+              "explanationLong": "Solar abscess causes acute severe lameness, focal hoof tester pain, and relief once drainage is established; navicular pathology is typically more chronic."
+            },
+            {
+              "id": "EQ-27",
+              "stem": "A horse has “pointing” of a forelimb and pain on deep palpation of the heel region. Which condition is most consistent?",
+              "options": [
+                { "key": "A", "text": "Shoulder osteoarthritis" },
+                { "key": "B", "text": "Navicular syndrome" },
+                { "key": "C", "text": "Upward fixation of patella" },
+                { "key": "D", "text": "Curb (plantar tarsal ligament)" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Heel pain + pointing suggests navicular-type pain.",
+              "explanationLong": "Navicular syndrome often presents with intermittent forelimb lameness, toe pointing, and heel pain; diagnostic blocks often implicate the foot."
+            }
+          ]
+        },
+        {
+          "id": "eq-repro",
+          "title": "Reproduction & Neonatology",
+          "questions": [
+            {
+              "id": "EQ-28",
+              "stem": "The mare is seasonally:",
+              "options": [
+                { "key": "A", "text": "Polyestrous year-round" },
+                { "key": "B", "text": "Monoestrous" },
+                { "key": "C", "text": "Long-day polyoestrous" },
+                { "key": "D", "text": "Short-day polyoestrous" }
+              ],
+              "correctKey": "C",
+              "explanationShort": "Mares cycle in long daylight months.",
+              "explanationLong": "Mares are long-day breeders; photoperiod influences melatonin and reproductive cycling."
+            },
+            {
+              "id": "EQ-29",
+              "stem": "In mares, ovulation typically occurs:",
+              "options": [
+                { "key": "A", "text": "At the start of oestrus" },
+                { "key": "B", "text": "Mid-dioestrus" },
+                { "key": "C", "text": "24–48 hours before the end of oestrus" },
+                { "key": "D", "text": "5–7 days after oestrus ends" }
+              ],
+              "correctKey": "C",
+              "explanationShort": "Ovulation is late oestrus.",
+              "explanationLong": "A classic detail: mares often ovulate near the end of behavioural oestrus, so breeding timing and ultrasound monitoring are important."
+            },
+            {
+              "id": "EQ-30",
+              "stem": "Endometrial cups in the pregnant mare primarily produce:",
+              "options": [
+                { "key": "A", "text": "Progesterone" },
+                { "key": "B", "text": "eCG (PMSG; LH/FSH-like activity)" },
+                { "key": "C", "text": "Oxytocin" },
+                { "key": "D", "text": "Prolactin" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Endometrial cups make eCG.",
+              "explanationLong": "eCG supports secondary corpus lutea formation and progesterone production indirectly. It has LH-like activity in the mare."
+            },
+            {
+              "id": "EQ-31",
+              "stem": "Persistent mating-induced endometritis is most likely in:",
+              "options": [
+                { "key": "A", "text": "Young maiden mare with good uterine tone" },
+                { "key": "B", "text": "Older multiparous mare with poor uterine clearance" },
+                { "key": "C", "text": "A stallion with penile lesions" },
+                { "key": "D", "text": "A gelding housed next door" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Older mares often clear uterine fluid poorly.",
+              "explanationLong": "Risk factors include age, poor perineal conformation, pneumovagina, dependent uterus and reduced myometrial contractility → fluid retention after breeding."
+            },
+            {
+              "id": "EQ-32",
+              "stem": "Twin pregnancy in the mare most commonly results in:",
+              "options": [
+                { "key": "A", "text": "Normal delivery of healthy twins" },
+                { "key": "B", "text": "Early embryonic loss or abortion" },
+                { "key": "C", "text": "Prolonged gestation with oversized foals" },
+                { "key": "D", "text": "No effect on pregnancy outcome" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Mares rarely carry twins to term successfully.",
+              "explanationLong": "Limited uterine/placental capacity means twins often lead to pregnancy loss or weak foals; early diagnosis and reduction is standard."
+            },
+            {
+              "id": "EQ-33",
+              "stem": "Most common infectious cause of abortion in mares (high-yield):",
+              "options": [
+                { "key": "A", "text": "EHV-1" },
+                { "key": "B", "text": "BVD" },
+                { "key": "C", "text": "Brucella abortus" },
+                { "key": "D", "text": "Campylobacter fetus" }
+              ],
+              "correctKey": "A",
+              "explanationShort": "EHV-1 is the classic abortion virus.",
+              "explanationLong": "EHV-1 can cause abortion storms and also neurological disease; biosecurity and vaccination strategies are commonly examined."
+            },
+            {
+              "id": "EQ-34",
+              "stem": "A “red bag” delivery indicates:",
+              "options": [
+                { "key": "A", "text": "Premature placental separation (chorioallantois presenting first)" },
+                { "key": "B", "text": "Rupture of the uterus" },
+                { "key": "C", "text": "Foal malpresentation (breech)" },
+                { "key": "D", "text": "Twin delivery" }
+              ],
+              "correctKey": "A",
+              "explanationShort": "Red bag = placental separation emergency.",
+              "explanationLong": "Premature separation prevents oxygen transfer; prompt incision of the membrane and rapid delivery is essential to prevent hypoxia."
+            },
+            {
+              "id": "EQ-35",
+              "stem": "For best passive transfer, a foal should ingest adequate colostrum within:",
+              "options": [
+                { "key": "A", "text": "0–2 hours" },
+                { "key": "B", "text": "6–12 hours" },
+                { "key": "C", "text": "18–24 hours" },
+                { "key": "D", "text": "36 hours" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Gut absorption drops quickly after birth; aim within 6–12h.",
+              "explanationLong": "IgG absorption declines markedly after ~12 hours and is minimal by 24 hours (gut closure). Early intake is critical."
+            },
+            {
+              "id": "EQ-36",
+              "stem": "A foal IgG of 300 mg/dL at 18 hours is best classified as:",
+              "options": [
+                { "key": "A", "text": "Adequate transfer" },
+                { "key": "B", "text": "Partial failure of passive transfer" },
+                { "key": "C", "text": "Complete failure of passive transfer" },
+                { "key": "D", "text": "Hyperimmune status" }
+              ],
+              "correctKey": "C",
+              "explanationShort": "<400 mg/dL = severe/complete FPT.",
+              "explanationLong": "Common cut-offs: >800 adequate; 400–800 partial; <400 complete failure → high sepsis risk and needs plasma/management."
+            },
+            {
+              "id": "EQ-37",
+              "stem": "In mares, retained placenta is generally defined as not passed by:",
+              "options": [
+                { "key": "A", "text": "1 hour" },
+                { "key": "B", "text": "3 hours" },
+                { "key": "C", "text": "6 hours" },
+                { "key": "D", "text": "12 hours" }
+              ],
+              "correctKey": "B",
+              "explanationShort": ">3 hours is the common definition.",
+              "explanationLong": "Retained fetal membranes (>3h) increase risk of metritis, endotoxaemia and laminitis; prompt management is important."
+            }
+          ]
+        },
+        {
+          "id": "eq-neuro-misc",
+          "title": "Neurology, Dermatology & Misc",
+          "questions": [
+            {
+              "id": "EQ-38",
+              "stem": "Most common cause of non-painful ataxia in young horses (classic exam answer):",
+              "options": [
+                { "key": "A", "text": "Equine protozoal myeloencephalitis" },
+                { "key": "B", "text": "Cervical vertebral stenotic myelopathy (wobbler)" },
+                { "key": "C", "text": "Tetanus" },
+                { "key": "D", "text": "Rabies" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Wobbler is a common classic ataxia cause.",
+              "explanationLong": "Cervical spinal cord compression causes symmetrical ataxia/weakness. EHV-1 can cause ataxia too, but wobbler is a frequent exam staple."
+            },
+            {
+              "id": "EQ-39",
+              "stem": "Tetanus most characteristically causes:",
+              "options": [
+                { "key": "A", "text": "Flaccid paralysis and areflexia" },
+                { "key": "B", "text": "Spastic paralysis with hyperaesthesia" },
+                { "key": "C", "text": "Blindness and seizures as first signs" },
+                { "key": "D", "text": "Profuse diarrhoea with colic" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Tetanus = rigid, spastic signs.",
+              "explanationLong": "Clostridial toxin blocks inhibitory neurotransmitters → muscle rigidity, ‘sawhorse’ stance, third eyelid prolapse, hypersensitivity."
+            },
+            {
+              "id": "EQ-40",
+              "stem": "Most common skin tumour in grey horses is:",
+              "options": [
+                { "key": "A", "text": "Squamous cell carcinoma" },
+                { "key": "B", "text": "Melanoma" },
+                { "key": "C", "text": "Fibrosarcoma" },
+                { "key": "D", "text": "Lymphoma" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Grey horses commonly develop melanomas.",
+              "explanationLong": "Melanomas are common in older grey horses (perineum, tail base); many are slow-growing but can become malignant."
+            },
+            {
+              "id": "EQ-41",
+              "stem": "Sarcoids are best described as:",
+              "options": [
+                { "key": "A", "text": "Highly metastatic tumours" },
+                { "key": "B", "text": "Locally aggressive fibroblastic skin tumours associated with bovine papillomavirus" },
+                { "key": "C", "text": "Simple allergic plaques" },
+                { "key": "D", "text": "Always self-resolving warts" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Sarcoids are locally aggressive and linked to BPV.",
+              "explanationLong": "They rarely metastasise but commonly recur after trauma/incomplete removal; management varies (surgery, topical chemo, immunotherapy)."
+            },
+            {
+              "id": "EQ-42",
+              "stem": "“Choke” in horses most commonly refers to:",
+              "options": [
+                { "key": "A", "text": "Tracheal foreign body" },
+                { "key": "B", "text": "Oesophageal obstruction by feed bolus" },
+                { "key": "C", "text": "Acute laryngeal paralysis" },
+                { "key": "D", "text": "Pulmonary oedema" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Choke = oesophageal obstruction (not airway).",
+              "explanationLong": "Horses can still breathe; nasal discharge of feed/saliva is common. Complications include aspiration pneumonia."
+            },
+            {
+              "id": "EQ-43",
+              "stem": "The most appropriate immediate management for choke (initial steps) is:",
+              "options": [
+                { "key": "A", "text": "Force water down the oesophagus quickly" },
+                { "key": "B", "text": "Withhold feed, provide sedation, and consider gentle lavage" },
+                { "key": "C", "text": "Immediate general anaesthesia in all cases" },
+                { "key": "D", "text": "Administer furosemide" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Sedation + gentle approach reduces trauma/aspiration risk.",
+              "explanationLong": "Avoid forceful fluids. Sedation reduces spasm and facilitates careful lavage; monitor for aspiration pneumonia."
+            }
+          ]
+        },
+        {
+          "id": "eq-endo",
+          "title": "Endocrine & Metabolic (Laminitis links)",
+          "questions": [
+            {
+              "id": "EQ-44",
+              "stem": "Equine Metabolic Syndrome (EMS) is most strongly associated with:",
+              "options": [
+                { "key": "A", "text": "Insulin dysregulation and regional adiposity" },
+                { "key": "B", "text": "Primary adrenal hyperfunction" },
+                { "key": "C", "text": "Chronic renal failure" },
+                { "key": "D", "text": "Copper deficiency" }
+              ],
+              "correctKey": "A",
+              "explanationShort": "EMS = obesity/cresty neck + insulin issues.",
+              "explanationLong": "EMS involves insulin dysregulation, obesity/regional fat, and high laminitis risk—especially in ponies/cobs."
+            },
+            {
+              "id": "EQ-45",
+              "stem": "PPID (equine Cushing’s) is due to:",
+              "options": [
+                { "key": "A", "text": "Pars intermedia adenoma/hyperplasia" },
+                { "key": "B", "text": "Adrenal carcinoma" },
+                { "key": "C", "text": "Thyroid hyperplasia" },
+                { "key": "D", "text": "Pituitary atrophy" }
+              ],
+              "correctKey": "A",
+              "explanationShort": "PPID = pars intermedia dysfunction.",
+              "explanationLong": "Neurodegeneration reduces dopaminergic inhibition → pars intermedia hyperplasia/adenoma → abnormal ACTH/peptide production."
+            },
+            {
+              "id": "EQ-48",
+              "stem": "Pergolide is primarily used to treat:",
+              "options": [
+                { "key": "A", "text": "Equine influenza" },
+                { "key": "B", "text": "PPID" },
+                { "key": "C", "text": "RAO" },
+                { "key": "D", "text": "Strangles" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Pergolide is the main drug for PPID.",
+              "explanationLong": "Pergolide is a dopamine agonist that restores inhibitory control of pars intermedia activity in PPID."
+            },
+            {
+              "id": "EQ-49",
+              "stem": "A pony with recurrent laminitis, obesity, and high insulin is best managed long-term with:",
+              "options": [
+                { "key": "A", "text": "High-starch diet and exercise restriction" },
+                { "key": "B", "text": "Weight loss program, low NSC diet, controlled exercise when safe" },
+                { "key": "C", "text": "Long-term NSAIDs as sole therapy" },
+                { "key": "D", "text": "High-protein supplements only" }
+              ],
+              "correctKey": "B",
+              "explanationShort": "Diet + weight loss is key to reduce insulin and laminitis risk.",
+              "explanationLong": "EMS management is primarily nutritional: reduce non-structural carbohydrates, promote weight loss, and exercise as tolerated; medical therapy may be adjunctive."
+            }
+          ]
+        },
+        {
+          "id": "eq-legal-bio",
+          "title": "Notifiable & Biosecurity",
+          "questions": [
+            {
+              "id": "EQ-50",
+              "stem": "Which equine disease is notifiable in the UK (high-stakes differential question)?",
+              "options": [
+                { "key": "A", "text": "Strangles" },
+                { "key": "B", "text": "Equine influenza" },
+                { "key": "C", "text": "African Horse Sickness" },
+                { "key": "D", "text": "Equine herpesvirus-4" }
+              ],
+              "correctKey": "C",
+              "explanationShort": "African Horse Sickness is notifiable.",
+              "explanationLong": "AHS is a high-consequence vector-borne disease with major movement restrictions and reporting requirements."
+            },
+            {
+              "id": "EQ-51",
+              "stem": "Most important single biosecurity practice to reduce infectious disease spread on an equine yard:",
+              "options": [
+                { "key": "A", "text": "Monthly deworming of all horses" },
+                { "key": "B", "text": "Immediate antibiotics for any nasal discharge" },
+                { "key": "C", "text": "Isolation/quarantine of new arrivals with monitoring" },
+                { "key": "D", "text": "Only using one water bucket for the yard" }
+              ],
+              "correctKey": "C",
+              "explanationShort": "Quarantine new arrivals is the biggest win.",
+              "explanationLong": "Isolation reduces introduction/spread of respiratory pathogens (strangles, influenza, EHV). Monitor temperature and test when indicated."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
