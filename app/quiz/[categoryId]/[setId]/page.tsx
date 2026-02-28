@@ -203,7 +203,7 @@ export default function QuizPage() {
 
     saveAttempt(attempt);
     sessionStorage.setItem("vetmcq_lastAttempt", JSON.stringify(attempt));
-    router.push(`/results/${category.id}/${set.id}`);
+    router.push(`/results/${category!.id}/${set!.id}`);
   }
 
   const options = getShuffledOptions(current.question);
@@ -382,4 +382,5 @@ export default function QuizPage() {
     </main>
   );
 }
+
 
