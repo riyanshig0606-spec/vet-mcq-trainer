@@ -700,8 +700,131 @@
     },
     {
       "id": "equine",
-      "title": "Equine",
-      "sets": []
+      "title": "Equine"
+      "sets": [
+  {
+    "id": "equine-set-rcvs-50",
+    "title": "RCVS Equine Mock Exam – 50 MCQs",
+    "subcategories": [
+      {
+        "id": "eq-colic",
+        "title": "Colic & Gastrointestinal",
+        "questions": [
+          {
+            "id": "EQ-01",
+            "stem": "A 10-year-old gelding with moderate colic has HR 68 bpm, congested MM, CRT 3 seconds, no reflux on NG tube. Rectal exam reveals tight bands across abdomen. Most likely diagnosis?",
+            "options": [
+              { "key": "A", "text": "Large colon displacement" },
+              { "key": "B", "text": "Small intestinal strangulation" },
+              { "key": "C", "text": "Large colon volvulus" },
+              { "key": "D", "text": "Impaction colic" }
+            ],
+            "correctKey": "C",
+            "explanationShort": "Tight bands + high HR suggests volvulus.",
+            "explanationLong": "Large colon volvulus causes severe pain, high heart rate and tight bands on rectal exam. Absence of reflux makes small intestinal strangulation less likely."
+          },
+          {
+            "id": "EQ-02",
+            "stem": "Most reliable indicator of surgical colic?",
+            "options": [
+              { "key": "A", "text": "Abdominal distension" },
+              { "key": "B", "text": "Persistent pain despite analgesia" },
+              { "key": "C", "text": "Reduced borborygmi" },
+              { "key": "D", "text": "Mild tachycardia" }
+            ],
+            "correctKey": "B",
+            "explanationShort": "Uncontrollable pain strongly suggests surgery.",
+            "explanationLong": "Persistent pain unresponsive to analgesia is one of the strongest indicators of a strangulating lesion requiring surgery."
+          },
+          {
+            "id": "EQ-03",
+            "stem": "Small intestinal strangulation most commonly results in:",
+            "options": [
+              { "key": "A", "text": "Hypoproteinaemia" },
+              { "key": "B", "text": "Hypochloraemic metabolic alkalosis" },
+              { "key": "C", "text": "Hyperlactataemia" },
+              { "key": "D", "text": "Hyperkalaemia" }
+            ],
+            "correctKey": "C",
+            "explanationShort": "Strangulation leads to increased lactate.",
+            "explanationLong": "Compromised perfusion results in anaerobic metabolism and elevated blood lactate."
+          }
+        ]
+      },
+      {
+        "id": "eq-lameness",
+        "title": "Lameness & Orthopaedics",
+        "questions": [
+          {
+            "id": "EQ-16",
+            "stem": "Most common cause of forelimb lameness:",
+            "options": [
+              { "key": "A", "text": "Tendon rupture" },
+              { "key": "B", "text": "Navicular disease" },
+              { "key": "C", "text": "Foot pain" },
+              { "key": "D", "text": "Fracture" }
+            ],
+            "correctKey": "C",
+            "explanationShort": "Most forelimb lameness originates in the foot.",
+            "explanationLong": "The majority of forelimb lameness cases localise to the foot using diagnostic nerve blocks."
+          },
+          {
+            "id": "EQ-17",
+            "stem": "Positive response to palmar digital nerve block localises pain to:",
+            "options": [
+              { "key": "A", "text": "Fetlock" },
+              { "key": "B", "text": "Carpus" },
+              { "key": "C", "text": "Foot" },
+              { "key": "D", "text": "Shoulder" }
+            ],
+            "correctKey": "C",
+            "explanationShort": "PD block localises pain to the foot.",
+            "explanationLong": "The palmar digital nerve block desensitises the foot structures including navicular region."
+          }
+        ]
+      },
+      {
+        "id": "eq-repro",
+        "title": "Reproduction",
+        "questions": [
+          {
+            "id": "EQ-26",
+            "stem": "The mare is seasonally:",
+            "options": [
+              { "key": "A", "text": "Polyestrous year-round" },
+              { "key": "B", "text": "Monoestrous" },
+              { "key": "C", "text": "Long-day polyestrous" },
+              { "key": "D", "text": "Short-day polyestrous" }
+            ],
+            "correctKey": "C",
+            "explanationShort": "Mares cycle during long daylight months.",
+            "explanationLong": "Mares are long-day breeders with peak cyclicity in spring and summer."
+          }
+        ]
+      },
+      {
+        "id": "eq-infectious",
+        "title": "Infectious & Notifiable",
+        "questions": [
+          {
+            "id": "EQ-48",
+            "stem": "Notifiable equine disease in UK:",
+            "options": [
+              { "key": "A", "text": "Strangles" },
+              { "key": "B", "text": "Equine influenza" },
+              { "key": "C", "text": "African Horse Sickness" },
+              { "key": "D", "text": "EPM" }
+            ],
+            "correctKey": "C",
+            "explanationShort": "African Horse Sickness is notifiable.",
+            "explanationLong": "African Horse Sickness is a notifiable disease due to its severe economic and welfare impact."
+          }
+        ]
+      }
+    ]
+  }
+]
     }
   ]
 }
+
