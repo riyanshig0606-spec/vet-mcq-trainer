@@ -189,8 +189,8 @@ export default function QuizPage() {
 
     const attempt: AttemptSummary = {
       attemptId: `att_${finishedAt}_${Math.random().toString(16).slice(2)}`,
-      categoryId: category.id,
-      setId: set.id,
+      categoryId: category!.id,
+      setId: set!.id,
       mode,
       shuffleQuestions,
       shuffleOptions,
@@ -382,3 +382,4 @@ export default function QuizPage() {
     </main>
   );
 }
+
