@@ -1,0 +1,707 @@
+{
+  "categories": [
+    {
+      "id": "farm",
+      "title": "Farm Animal",
+      "sets": [
+        {
+          "id": "farm-set-rcvs-50",
+          "title": "RCVS Farm Animal Mock Exam – 50 MCQs",
+          "subcategories": [
+            {
+              "id": "farm-abortion-repro",
+              "title": "Abortion & Infectious Reproduction",
+              "questions": [
+                {
+                  "id": "FA-AB-001",
+                  "stem": "A dairy herd reports 4 abortions in 60 cows over 3 weeks. Annual abortion rate is 4%. Most appropriate interpretation?",
+                  "options": [
+                    { "key": "A", "text": "Below intervention threshold – no action required" },
+                    { "key": "B", "text": "Indicates abortion storm" },
+                    { "key": "C", "text": "Cluster suggests infectious cause despite annual rate" },
+                    { "key": "D", "text": "Consistent with normal herd variation" }
+                  ],
+                  "correctKey": "C",
+                  "explanationShort": "A cluster in a short time suggests infectious abortion even if annual rate is under 5%.",
+                  "explanationLong": "RCVS often tests that temporal clustering (several abortions in weeks) is suspicious for infectious causes and should trigger investigation, even when the annual percentage looks ‘acceptable’."
+                },
+                {
+                  "id": "FA-AB-002",
+                  "stem": "Which finding most strongly suggests infectious rather than non-infectious abortion?",
+                  "options": [
+                    { "key": "A", "text": "Mycotoxin-contaminated silage" },
+                    { "key": "B", "text": "Multiple abortions within 30 days" },
+                    { "key": "C", "text": "Single cow aborting at 5 months" },
+                    { "key": "D", "text": "Cow with twin pregnancy" }
+                  ],
+                  "correctKey": "B",
+                  "explanationShort": "Clustering in time is a classic infectious red flag.",
+                  "explanationLong": "A tight cluster suggests an infectious process (e.g., BVD/IBR/lepto etc.). Non-infectious causes are often sporadic unless there’s a clear shared exposure."
+                },
+                {
+                  "id": "FA-AB-003",
+                  "stem": "Most useful material to increase diagnostic yield in abortion investigation:",
+                  "options": [
+                    { "key": "A", "text": "Maternal serum only" },
+                    { "key": "B", "text": "Foetus only" },
+                    { "key": "C", "text": "Foetus + fetal membranes" },
+                    { "key": "D", "text": "Vaginal swab 2 weeks later" }
+                  ],
+                  "correctKey": "C",
+                  "explanationShort": "Fetus + placenta/membranes gives the best chance of diagnosis.",
+                  "explanationLong": "Many pathogens and lesions are in placenta. Submitting fetus and membranes improves lab yield substantially."
+                },
+                {
+                  "id": "FA-AB-004",
+                  "stem": "Which infection commonly causes abortion without clinical signs?",
+                  "options": [
+                    { "key": "A", "text": "Severe mastitis" },
+                    { "key": "B", "text": "BVD" },
+                    { "key": "C", "text": "Milk fever" },
+                    { "key": "D", "text": "Hypomagnesaemia" }
+                  ],
+                  "correctKey": "B",
+                  "explanationShort": "BVD can cause reproductive loss with minimal maternal signs.",
+                  "explanationLong": "BVD infections can be clinically silent in the dam yet cause embryonic loss, abortion, congenital defects, or PI calves depending on timing."
+                },
+                {
+                  "id": "FA-AB-005",
+                  "stem": "Statutory abortion investigation in UK is focused on:",
+                  "options": [
+                    { "key": "A", "text": "BVD" },
+                    { "key": "B", "text": "Leptospirosis" },
+                    { "key": "C", "text": "Brucellosis" },
+                    { "key": "D", "text": "Neospora" }
+                  ],
+                  "correctKey": "C",
+                  "explanationShort": "Bovine abortions are reported primarily for brucellosis surveillance.",
+                  "explanationLong": "In the UK, abortion reporting is especially linked to statutory brucellosis investigation (historically important, high consequence)."
+                },
+                {
+                  "id": "FA-AB-006",
+                  "stem": "Brucella abortus is most heavily shed in:",
+                  "options": [
+                    { "key": "A", "text": "Milk only" },
+                    { "key": "B", "text": "Faeces" },
+                    { "key": "C", "text": "Foetal fluids and membranes" },
+                    { "key": "D", "text": "Saliva" }
+                  ],
+                  "correctKey": "C",
+                  "explanationShort": "Highest load is in abortion material and uterine discharges.",
+                  "explanationLong": "Brucella is massively shed at abortion/calving via placenta, fluids, and uterine discharges—highly infectious to herd mates and people."
+                },
+                {
+                  "id": "FA-AB-007",
+                  "stem": "Following abortion due to brucellosis, cow will:",
+                  "options": [
+                    { "key": "A", "text": "Always abort in subsequent pregnancies" },
+                    { "key": "B", "text": "Be sterile" },
+                    { "key": "C", "text": "Often calve normally but continue shedding" },
+                    { "key": "D", "text": "Clear infection completely" }
+                  ],
+                  "correctKey": "C",
+                  "explanationShort": "May calve normally later but remain infectious.",
+                  "explanationLong": "A classic exam point: later pregnancies may look normal, but infected cattle may still shed around parturition."
+                },
+                {
+                  "id": "FA-AB-008",
+                  "stem": "In BVD, infection at 90 days gestation results in:",
+                  "options": [
+                    { "key": "A", "text": "Normal immune calf" },
+                    { "key": "B", "text": "PI calf" },
+                    { "key": "C", "text": "Abortion always" },
+                    { "key": "D", "text": "Congenital heart defects only" }
+                  ],
+                  "correctKey": "B",
+                  "explanationShort": "Before ~110–120 days → immune tolerance → PI calf.",
+                  "explanationLong": "Infection before fetal immune competence can produce persistently infected calves that shed virus lifelong (main reservoir)."
+                },
+                {
+                  "id": "FA-AB-009",
+                  "stem": "Mucosal disease is fatal because:",
+                  "options": [
+                    { "key": "A", "text": "Severe bacterial septicaemia" },
+                    { "key": "B", "text": "Immune-mediated destruction" },
+                    { "key": "C", "text": "Cytopathic strain superinfection in PI animal" },
+                    { "key": "D", "text": "Liver failure" }
+                  ],
+                  "correctKey": "C",
+                  "explanationShort": "Occurs in PI animals when cytopathic virus is involved.",
+                  "explanationLong": "Mucosal disease is essentially a catastrophic BVD syndrome in PI animals; it’s classically fatal."
+                },
+                {
+                  "id": "FA-AB-010",
+                  "stem": "The most effective BVD eradication strategy:",
+                  "options": [
+                    { "key": "A", "text": "Whole herd vaccination only" },
+                    { "key": "B", "text": "Culling cows with diarrhoea" },
+                    { "key": "C", "text": "Identification and removal of PI animals" },
+                    { "key": "D", "text": "Antibiotic treatment" }
+                  ],
+                  "correctKey": "C",
+                  "explanationShort": "Remove PI animals to stop ongoing transmission.",
+                  "explanationLong": "Vaccination supports control but eradication requires identifying and removing PIs (main within-herd source)."
+                }
+              ]
+            },
+            {
+              "id": "farm-beef-fertility",
+              "title": "Beef Herd Fertility & Production",
+              "questions": [
+                {
+                  "id": "FA-BF-011",
+                  "stem": "Target % cows calving of mated in 9-week breeding period:",
+                  "options": [
+                    { "key": "A", "text": "≥85%" },
+                    { "key": "B", "text": "≥90%" },
+                    { "key": "C", "text": "≥95%" },
+                    { "key": "D", "text": "≥98%" }
+                  ],
+                  "correctKey": "C",
+                  "explanationShort": "A common KPI target is ≥95% calving of mated cows.",
+                  "explanationLong": "Compact calving drives uniform calf crop and profitability. >5% barren/poor calving performance prompts investigation."
+                },
+                {
+                  "id": "FA-BF-012",
+                  "stem": "Cow must conceive within how many days postpartum to maintain 12-month calving interval?",
+                  "options": [
+                    { "key": "A", "text": "60" },
+                    { "key": "B", "text": "70" },
+                    { "key": "C", "text": "82" },
+                    { "key": "D", "text": "100" }
+                  ],
+                  "correctKey": "C",
+                  "explanationShort": "82 days postpartum is the classic target for a 12-month interval.",
+                  "explanationLong": "365 days − 283 days gestation ≈ 82 days. This number comes up a lot in farm exam questions."
+                },
+                {
+                  "id": "FA-BF-013",
+                  "stem": "Most important factor affecting length of postpartum anoestrus:",
+                  "options": [
+                    { "key": "A", "text": "Age" },
+                    { "key": "B", "text": "BCS at calving" },
+                    { "key": "C", "text": "Breed" },
+                    { "key": "D", "text": "Suckling" }
+                  ],
+                  "correctKey": "D",
+                  "explanationShort": "Suckling is the biggest driver of prolonged postpartum anoestrus.",
+                  "explanationLong": "Multiple factors affect cyclicity, but suckling is classically the major one; low BCS also prolongs anoestrus."
+                },
+                {
+                  "id": "FA-BF-014",
+                  "stem": "Heifer should reach what % mature bodyweight before breeding?",
+                  "options": [
+                    { "key": "A", "text": "55%" },
+                    { "key": "B", "text": "60%" },
+                    { "key": "C", "text": "65%" },
+                    { "key": "D", "text": "75%" }
+                  ],
+                  "correctKey": "C",
+                  "explanationShort": "Target around 65% mature weight before breeding.",
+                  "explanationLong": "Heifers at ~65% mature BW are more likely to have reached puberty/cycling. Underweight heifers have poorer conception and later calving."
+                },
+                {
+                  "id": "FA-BF-015",
+                  "stem": ">5% assisted calvings is associated with:",
+                  "options": [
+                    { "key": "A", "text": "Increased conception rate" },
+                    { "key": "B", "text": "Reduced herd fertility" },
+                    { "key": "C", "text": "No economic impact" },
+                    { "key": "D", "text": "Higher milk yield" }
+                  ],
+                  "correctKey": "B",
+                  "explanationShort": "High dystocia/assistance rates reduce fertility performance.",
+                  "explanationLong": "Assisted calvings increase postpartum disease and delay return to cyclicity, reducing conception rates and compact calving performance."
+                },
+                {
+                  "id": "FA-BF-016",
+                  "stem": "Main cause of dystocia in beef herds:",
+                  "options": [
+                    { "key": "A", "text": "Hypocalcaemia" },
+                    { "key": "B", "text": "Oversized calves" },
+                    { "key": "C", "text": "Twinning" },
+                    { "key": "D", "text": "Pelvic fractures" }
+                  ],
+                  "correctKey": "B",
+                  "explanationShort": "Most common cause is oversized calves (fetopelvic disproportion).",
+                  "explanationLong": "Often linked to sire choice, heifer size, and nutrition. Prevention uses easy-calving genetics and appropriate heifer growth targets."
+                },
+                {
+                  "id": "FA-BF-017",
+                  "stem": "Optimal BCS at calving (beef cow):",
+                  "options": [
+                    { "key": "A", "text": "2" },
+                    { "key": "B", "text": "2.5–3" },
+                    { "key": "C", "text": "3.5" },
+                    { "key": "D", "text": "4" }
+                  ],
+                  "correctKey": "B",
+                  "explanationShort": "BCS 2.5–3 is generally optimal at calving.",
+                  "explanationLong": "Too thin → poor fertility/long anoestrus; too fat → dystocia/metabolic issues and wasted feed costs."
+                },
+                {
+                  "id": "FA-BF-018",
+                  "stem": "Cows with BCS <2 at calving typically show:",
+                  "options": [
+                    { "key": "A", "text": "Shorter anoestrus" },
+                    { "key": "B", "text": "Delayed cyclicity" },
+                    { "key": "C", "text": "Increased milk production" },
+                    { "key": "D", "text": "Reduced dystocia" }
+                  ],
+                  "correctKey": "B",
+                  "explanationShort": "Low BCS delays return to cyclicity postpartum.",
+                  "explanationLong": "Negative energy balance and poor body reserves prolong postpartum anoestrus and reduce conception rates."
+                },
+                {
+                  "id": "FA-BF-019",
+                  "stem": "Bull scrotal circumference target at 24 months:",
+                  "options": [
+                    { "key": "A", "text": "30 cm" },
+                    { "key": "B", "text": "32 cm" },
+                    { "key": "C", "text": "34 cm" },
+                    { "key": "D", "text": "36 cm" }
+                  ],
+                  "correctKey": "C",
+                  "explanationShort": "A common target is ~34 cm at 24 months.",
+                  "explanationLong": "Scrotal circumference correlates with semen output and earlier puberty in female offspring. Targets vary slightly by breed."
+                },
+                {
+                  "id": "FA-BF-020",
+                  "stem": "Most likely cause of temporary testicular degeneration:",
+                  "options": [
+                    { "key": "A", "text": "Campylobacter" },
+                    { "key": "B", "text": "Fever" },
+                    { "key": "C", "text": "Trauma" },
+                    { "key": "D", "text": "Hypomagnesaemia" }
+                  ],
+                  "correctKey": "B",
+                  "explanationShort": "Fever can temporarily damage spermatogenesis.",
+                  "explanationLong": "Spermatogenesis is temperature sensitive. Fever/systemic illness can impair semen quality for weeks afterwards."
+                }
+              ]
+            },
+            {
+              "id": "farm-respiratory",
+              "title": "Respiratory Disease & Notifiable Disease",
+              "questions": [
+                {
+                  "id": "FA-RD-021",
+                  "stem": "BRSV primarily affects:",
+                  "options": [
+                    { "key": "A", "text": "Adult dairy cows" },
+                    { "key": "B", "text": "Beef calves <6 months" },
+                    { "key": "C", "text": "Bulls" },
+                    { "key": "D", "text": "Pregnant heifers" }
+                  ],
+                  "correctKey": "B",
+                  "explanationShort": "Commonest in young calves (often <6 months).",
+                  "explanationLong": "BRSV is a major component of bovine respiratory disease in youngstock; adults can be affected but calves are typical."
+                },
+                {
+                  "id": "FA-RD-022",
+                  "stem": "Most characteristic lesion of BRSV:",
+                  "options": [
+                    { "key": "A", "text": "Fibrinous pleuritis" },
+                    { "key": "B", "text": "Diffuse interstitial pneumonia" },
+                    { "key": "C", "text": "Caseous necrosis" },
+                    { "key": "D", "text": "Lung abscess" }
+                  ],
+                  "correctKey": "B",
+                  "explanationShort": "Diffuse interstitial pneumonia is typical.",
+                  "explanationLong": "BRSV causes interstitial pneumonia with oedema/emphysema; secondary bacterial bronchopneumonia may complicate cases."
+                },
+                {
+                  "id": "FA-RD-023",
+                  "stem": "Most rapid and sensitive BRSV diagnostic:",
+                  "options": [
+                    { "key": "A", "text": "Culture" },
+                    { "key": "B", "text": "PCR" },
+                    { "key": "C", "text": "ELISA single sample" },
+                    { "key": "D", "text": "Post-mortem only" }
+                  ],
+                  "correctKey": "B",
+                  "explanationShort": "PCR is rapid and practical; culture is difficult.",
+                  "explanationLong": "BRSV isolation is challenging; PCR detects viral nucleic acid quickly from respiratory samples."
+                },
+                {
+                  "id": "FA-RD-024",
+                  "stem": "Passively derived immunity in BRSV:",
+                  "options": [
+                    { "key": "A", "text": "Prevents infection" },
+                    { "key": "B", "text": "Eliminates virus shedding" },
+                    { "key": "C", "text": "Reduces severity" },
+                    { "key": "D", "text": "Prevents seroconversion" }
+                  ],
+                  "correctKey": "C",
+                  "explanationShort": "Maternal antibodies mainly reduce severity.",
+                  "explanationLong": "Passive immunity does not reliably prevent infection or shedding but can reduce clinical severity and mortality."
+                },
+                {
+                  "id": "FA-RD-025",
+                  "stem": "Case fatality rate in BRSV outbreaks may reach:",
+                  "options": [
+                    { "key": "A", "text": "1%" },
+                    { "key": "B", "text": "5%" },
+                    { "key": "C", "text": "10–20%" },
+                    { "key": "D", "text": "50%" }
+                  ],
+                  "correctKey": "C",
+                  "explanationShort": "Can be up to around 10–20% in severe outbreaks.",
+                  "explanationLong": "Morbidity is often high; fatality varies with management, secondary infections, and timeliness of treatment."
+                },
+                {
+                  "id": "FA-RD-026",
+                  "stem": "Bluetongue is transmitted by:",
+                  "options": [
+                    { "key": "A", "text": "Direct contact" },
+                    { "key": "B", "text": "Aerosol" },
+                    { "key": "C", "text": "Culicoides midges" },
+                    { "key": "D", "text": "Fomites" }
+                  ],
+                  "correctKey": "C",
+                  "explanationShort": "Vector-borne via Culicoides biting midges.",
+                  "explanationLong": "Bluetongue epidemiology depends on midge distribution/activity; it’s not primarily spread by animal-to-animal direct contact."
+                },
+                {
+                  "id": "FA-RD-027",
+                  "stem": "Most important differential for Bluetongue:",
+                  "options": [
+                    { "key": "A", "text": "Orf" },
+                    { "key": "B", "text": "Listeriosis" },
+                    { "key": "C", "text": "Foot and Mouth Disease" },
+                    { "key": "D", "text": "Johne’s" }
+                  ],
+                  "correctKey": "C",
+                  "explanationShort": "FMD is the key notifiable differential.",
+                  "explanationLong": "BT can resemble FMD (oral lesions/lameness). FMD has major legal and outbreak implications, so it must be high on the differential list."
+                },
+                {
+                  "id": "FA-RD-028",
+                  "stem": "Vaccination against BTV-8 protects against:",
+                  "options": [
+                    { "key": "A", "text": "All serotypes" },
+                    { "key": "B", "text": "Serotypes 1–8" },
+                    { "key": "C", "text": "Only BTV-8" },
+                    { "key": "D", "text": "All European strains" }
+                  ],
+                  "correctKey": "C",
+                  "explanationShort": "Bluetongue immunity is largely serotype-specific.",
+                  "explanationLong": "Vaccines are targeted to serotypes; BTV-8 vaccination does not reliably protect against other serotypes."
+                }
+              ]
+            },
+            {
+              "id": "farm-metabolic-parasites",
+              "title": "Metabolic, Nutrition & Parasitology",
+              "questions": [
+                {
+                  "id": "FA-MN-029",
+                  "stem": "Ruminal lactic acidosis results from:",
+                  "options": [
+                    { "key": "A", "text": "Sudden high protein diet" },
+                    { "key": "B", "text": "Gradual concentrate introduction" },
+                    { "key": "C", "text": "Sudden ingestion of carbohydrate-rich feed" },
+                    { "key": "D", "text": "Magnesium deficiency" }
+                  ],
+                  "correctKey": "C",
+                  "explanationShort": "Carbohydrate overload → lactic acid production → pH crash.",
+                  "explanationLong": "Sudden grain/concentrate ingestion shifts rumen flora, increases lactate, causes rumen stasis, dehydration, metabolic acidosis, endotoxaemia."
+                },
+                {
+                  "id": "FA-MN-030",
+                  "stem": "Early acidosis diarrhoea appears:",
+                  "options": [
+                    { "key": "A", "text": "Immediately" },
+                    { "key": "B", "text": "Within 6 hours" },
+                    { "key": "C", "text": "After 12–24 hours" },
+                    { "key": "D", "text": "After 3 days" }
+                  ],
+                  "correctKey": "C",
+                  "explanationShort": "Often delayed; commonly 12–24 hours after overload.",
+                  "explanationLong": "Early signs may be dullness/ataxia/colic; diarrhoea is often absent initially then becomes profuse as rumen contents alter and gut motility changes."
+                },
+                {
+                  "id": "FA-MN-031",
+                  "stem": "Most important preventive strategy for acidosis:",
+                  "options": [
+                    { "key": "A", "text": "Vaccination" },
+                    { "key": "B", "text": "Gradual concentrate introduction" },
+                    { "key": "C", "text": "Antibiotics" },
+                    { "key": "D", "text": "Sodium bicarbonate daily" }
+                  ],
+                  "correctKey": "B",
+                  "explanationShort": "Adapt rumen gradually to higher starch diets.",
+                  "explanationLong": "Gradual dietary transition with adequate fibre is the key preventive. Buffers can help but don’t replace correct feeding management."
+                },
+                {
+                  "id": "FA-MN-032",
+                  "stem": "Listeriosis is most commonly associated with:",
+                  "options": [
+                    { "key": "A", "text": "Fresh grass" },
+                    { "key": "B", "text": "Poorly fermented silage" },
+                    { "key": "C", "text": "Grain overload" },
+                    { "key": "D", "text": "High magnesium diet" }
+                  ],
+                  "correctKey": "B",
+                  "explanationShort": "Poor silage preservation is the classic risk factor.",
+                  "explanationLong": "Listeria monocytogenes proliferates in poorly fermented silage; outbreaks are linked to feeding such forage."
+                },
+                {
+                  "id": "FA-MN-033",
+                  "stem": "Classic neurological sign in listeriosis:",
+                  "options": [
+                    { "key": "A", "text": "Bilateral paralysis" },
+                    { "key": "B", "text": "Circling toward affected side" },
+                    { "key": "C", "text": "Seizures" },
+                    { "key": "D", "text": "Hyperaesthesia" }
+                  ],
+                  "correctKey": "B",
+                  "explanationShort": "Unilateral brainstem signs → circling to affected side.",
+                  "explanationLong": "Brainstem encephalitis causes cranial nerve deficits (e.g., facial paralysis), head tilt, circling/leaning, depression."
+                },
+                {
+                  "id": "FA-MN-034",
+                  "stem": "Coccidiosis most common age group:",
+                  "options": [
+                    { "key": "A", "text": "Adult sheep" },
+                    { "key": "B", "text": "4–8 week lambs" },
+                    { "key": "C", "text": "6 month lambs" },
+                    { "key": "D", "text": "2 year ewes" }
+                  ],
+                  "correctKey": "B",
+                  "explanationShort": "Usually affects young lambs around 4–8 weeks.",
+                  "explanationLong": "Young animals are most susceptible before acquired immunity develops; disease is promoted by crowding and contamination."
+                },
+                {
+                  "id": "FA-MN-035",
+                  "stem": "Coccidia oocysts are:",
+                  "options": [
+                    { "key": "A", "text": "Easily destroyed by drying" },
+                    { "key": "B", "text": "Fragile in winter" },
+                    { "key": "C", "text": "Highly resistant in environment" },
+                    { "key": "D", "text": "Spread only by rams" }
+                  ],
+                  "correctKey": "C",
+                  "explanationShort": "Oocysts persist and resist many environmental stresses.",
+                  "explanationLong": "Oocysts survive for long periods and resist many disinfectants; hygiene and reducing stocking density are key controls."
+                }
+              ]
+            },
+            {
+              "id": "farm-biostats",
+              "title": "Biostatistics",
+              "questions": [
+                {
+                  "id": "FA-BS-036",
+                  "stem": "Highly sensitive test with negative result is useful to:",
+                  "options": [
+                    { "key": "A", "text": "Rule in disease" },
+                    { "key": "B", "text": "Rule out disease" },
+                    { "key": "C", "text": "Confirm prevalence" },
+                    { "key": "D", "text": "Increase PPV" }
+                  ],
+                  "correctKey": "B",
+                  "explanationShort": "SNOUT: Sensitive test Negative rules OUT disease.",
+                  "explanationLong": "High sensitivity means few false negatives; a negative result makes the disease unlikely."
+                },
+                {
+                  "id": "FA-BS-037",
+                  "stem": "If prevalence decreases, PPV:",
+                  "options": [
+                    { "key": "A", "text": "Increases" },
+                    { "key": "B", "text": "Decreases" },
+                    { "key": "C", "text": "Unchanged" },
+                    { "key": "D", "text": "Doubles" }
+                  ],
+                  "correctKey": "B",
+                  "explanationShort": "Lower prevalence → more false positives proportionally → PPV drops.",
+                  "explanationLong": "With fewer true cases, a positive test is less likely to be a true positive, reducing PPV."
+                },
+                {
+                  "id": "FA-BS-038",
+                  "stem": "If prevalence decreases, NPV:",
+                  "options": [
+                    { "key": "A", "text": "Decreases" },
+                    { "key": "B", "text": "Increases" },
+                    { "key": "C", "text": "Unchanged" },
+                    { "key": "D", "text": "Equals sensitivity" }
+                  ],
+                  "correctKey": "B",
+                  "explanationShort": "Lower prevalence → more true negatives → NPV rises.",
+                  "explanationLong": "When disease is rare, negative results are more likely to be true negatives."
+                },
+                {
+                  "id": "FA-BS-039",
+                  "stem": "Sensitivity formula:",
+                  "options": [
+                    { "key": "A", "text": "TP / (TP + FP)" },
+                    { "key": "B", "text": "TN / (TN + FN)" },
+                    { "key": "C", "text": "TP / (TP + FN)" },
+                    { "key": "D", "text": "FP / (FP + TN)" }
+                  ],
+                  "correctKey": "C",
+                  "explanationShort": "Sensitivity = TP / (TP + FN).",
+                  "explanationLong": "Proportion of diseased animals correctly identified as positive."
+                },
+                {
+                  "id": "FA-BS-040",
+                  "stem": "Specificity formula:",
+                  "options": [
+                    { "key": "A", "text": "TN / (TN + FP)" },
+                    { "key": "B", "text": "TP / (TP + FN)" },
+                    { "key": "C", "text": "FP / (FP + FN)" },
+                    { "key": "D", "text": "TN / (TP + FN)" }
+                  ],
+                  "correctKey": "A",
+                  "explanationShort": "Specificity = TN / (TN + FP).",
+                  "explanationLong": "Proportion of non-diseased animals correctly identified as negative."
+                }
+              ]
+            },
+            {
+              "id": "farm-uk-legal",
+              "title": "UK Legal, ABP & Prescribing Cascade",
+              "questions": [
+                {
+                  "id": "FA-UK-041",
+                  "stem": "Minimum withdrawal for meat under cascade:",
+                  "options": [
+                    { "key": "A", "text": "7 days" },
+                    { "key": "B", "text": "14 days" },
+                    { "key": "C", "text": "21 days" },
+                    { "key": "D", "text": "28 days" }
+                  ],
+                  "correctKey": "D",
+                  "explanationShort": "Statutory minimum meat withdrawal under cascade: 28 days.",
+                  "explanationLong": "When prescribing under cascade in food animals, the vet must set an appropriate withdrawal, at least the statutory minimum (often quoted: 28 days meat)."
+                },
+                {
+                  "id": "FA-UK-042",
+                  "stem": "Minimum withdrawal for milk under cascade:",
+                  "options": [
+                    { "key": "A", "text": "3 days" },
+                    { "key": "B", "text": "5 days" },
+                    { "key": "C", "text": "7 days" },
+                    { "key": "D", "text": "10 days" }
+                  ],
+                  "correctKey": "C",
+                  "explanationShort": "Statutory minimum milk withdrawal under cascade: 7 days.",
+                  "explanationLong": "Under cascade, the vet must set withdrawal periods; commonly taught minimum for milk (and eggs) is 7 days."
+                },
+                {
+                  "id": "FA-UK-043",
+                  "stem": "Category 1 ABP includes:",
+                  "options": [
+                    { "key": "A", "text": "Manure" },
+                    { "key": "B", "text": "Specified risk material" },
+                    { "key": "C", "text": "Milk with antibiotic residue" },
+                    { "key": "D", "text": "Slaughter waste" }
+                  ],
+                  "correctKey": "B",
+                  "explanationShort": "SRM is Category 1 (highest risk).",
+                  "explanationLong": "Category 1 includes SRM and other high-risk materials (e.g., TSE-risk)."
+                },
+                {
+                  "id": "FA-UK-044",
+                  "stem": "Category 2 ABP includes:",
+                  "options": [
+                    { "key": "A", "text": "Manure" },
+                    { "key": "B", "text": "SRM" },
+                    { "key": "C", "text": "Domestic catering waste" },
+                    { "key": "D", "text": "Gelatine" }
+                  ],
+                  "correctKey": "A",
+                  "explanationShort": "Manure is Category 2 ABP.",
+                  "explanationLong": "Category 2 includes manure and GI contents and other higher-risk ABPs that are not Category 1."
+                },
+                {
+                  "id": "FA-UK-045",
+                  "stem": "Category 3 ABP includes:",
+                  "options": [
+                    { "key": "A", "text": "Tuberculous carcass" },
+                    { "key": "B", "text": "Septicaemic carcass" },
+                    { "key": "C", "text": "Liver with fluke lesions" },
+                    { "key": "D", "text": "TSE suspect carcass" }
+                  ],
+                  "correctKey": "C",
+                  "explanationShort": "Fluke-damaged liver is Category 3 (lowest risk).",
+                  "explanationLong": "Category 3 includes parts from animals fit for slaughter but not for human consumption for local/non-systemic reasons (e.g., localized parasitic lesions)."
+                },
+                {
+                  "id": "FA-UK-046",
+                  "stem": "POM-V medicines require:",
+                  "options": [
+                    { "key": "A", "text": "SQP prescription" },
+                    { "key": "B", "text": "No clinical exam" },
+                    { "key": "C", "text": "Vet prescription after clinical assessment" },
+                    { "key": "D", "text": "Farm manager approval" }
+                  ],
+                  "correctKey": "C",
+                  "explanationShort": "POM-V requires vet Rx + clinical assessment under care.",
+                  "explanationLong": "POM-V medicines can only be prescribed by a veterinarian following clinical assessment of animals under their care."
+                },
+                {
+                  "id": "FA-UK-047",
+                  "stem": "POM-VPS may be prescribed by:",
+                  "options": [
+                    { "key": "A", "text": "Vet only" },
+                    { "key": "B", "text": "Vet or pharmacist or SQP" },
+                    { "key": "C", "text": "Vet nurse" },
+                    { "key": "D", "text": "Farmer" }
+                  ],
+                  "correctKey": "B",
+                  "explanationShort": "POM-VPS can be prescribed by vet/pharmacist/SQP.",
+                  "explanationLong": "POM-VPS medicines can be supplied by authorised prescribers including SQPs, depending on product class and regulations."
+                },
+                {
+                  "id": "FA-UK-048",
+                  "stem": "In prescribing cascade, first alternative step is:",
+                  "options": [
+                    { "key": "A", "text": "Human medicine" },
+                    { "key": "B", "text": "EU import" },
+                    { "key": "C", "text": "UK VMP for another species" },
+                    { "key": "D", "text": "Extemporaneous compounding" }
+                  ],
+                  "correctKey": "C",
+                  "explanationShort": "First: UK-authorised veterinary product for another species/condition.",
+                  "explanationLong": "Cascade order matters: the first step is usually a UK-authorised veterinary medicine for another species or different indication."
+                },
+                {
+                  "id": "FA-UK-049",
+                  "stem": "Under cascade, vet must:",
+                  "options": [
+                    { "key": "A", "text": "Ignore withdrawal" },
+                    { "key": "B", "text": "Set statutory minimum withdrawal" },
+                    { "key": "C", "text": "Use zero withdrawal" },
+                    { "key": "D", "text": "Defer to farmer" }
+                  ],
+                  "correctKey": "B",
+                  "explanationShort": "Vet must set a withdrawal period (≥ statutory minimum).",
+                  "explanationLong": "The prescriber is legally responsible for specifying an appropriate withdrawal period when using cascade in food-producing animals."
+                },
+                {
+                  "id": "FA-UK-050",
+                  "stem": "Bluetongue in UK is:",
+                  "options": [
+                    { "key": "A", "text": "Endemic" },
+                    { "key": "B", "text": "Zoonotic" },
+                    { "key": "C", "text": "Notifiable disease" },
+                    { "key": "D", "text": "Directly contagious" }
+                  ],
+                  "correctKey": "C",
+                  "explanationShort": "Bluetongue is notifiable in the UK.",
+                  "explanationLong": "It is vector-borne and controlled via surveillance/movement restrictions/vaccination strategies depending on policy."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "equine",
+      "title": "Equine",
+      "sets": []
+    }
+  ]
+}
